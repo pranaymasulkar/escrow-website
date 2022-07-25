@@ -16,6 +16,9 @@ const Header = () => {
                         <img src="img/assets/logo-light.png" className="logo-light" alt="#"/>
                         <img src="img/assets/logo-dark.png" className="logo-dark" alt="#"/>
                     </a>
+                    <div className="loginbtnhed">
+                    <a className="btn btn-warning" href="https://escrow.hvambit.com">Login</a>
+                    </div>
                 </div>
                 <div className="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul className="nav navbar-nav">
@@ -63,10 +66,10 @@ const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a data-scroll href="signup.html">Register</a>
+                            <a data-scroll href="https://escrow.hvambit.com/register">Register</a>
                         </li>
                         <li className="quote">
-                            <a href="./login.html">Login</a>
+                            <a href="https://escrow.hvambit.com">Login</a>
                         </li>	
                     </ul>
                 </div>

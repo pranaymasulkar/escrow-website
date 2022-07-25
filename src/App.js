@@ -465,9 +465,9 @@ function App() {
                    </div>
                </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="price-chart ">
+                    <div class="price-chart table-responsive">
                         
-                    <table class="table table-striped table-responsive-xs table-hover text-left">
+                    <table class="table table-striped  table-hover text-left">
                         <thead>
                         <tr>
                             <th>Cryptocurrency</th>

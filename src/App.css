@@ -2,3 +2,12 @@
     background-image: url(/src/assets/img/backgrounds/bg3.jpg);
     opacity: 1;
 }
+.loginbtnhed {
+    display: none;
+}
+@media (max-width: 767px) {
+    .loginbtnhed {
+        display: inline-block;
+        float: right;
+    }
+}
