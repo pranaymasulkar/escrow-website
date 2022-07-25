@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 
@@ -16,7 +15,7 @@ function App() {
     {/* <!-- Start Hero Section --> */}
     <section id="hero" class="hero-main parallax ">
         <div class="hero-overlay">
-            <div class="background-image">
+            <div class="background-image bg-3 herohead">
                 <img src="img/backgrounds/bg3.jpg" alt="#"/>
             </div>
         </div>
@@ -858,21 +857,7 @@ function App() {
                         </ul>
                     </div>
                 </div>
-               
-                <div class="col-md-2 col-sm-6">
-                    <div class="widget news-widget">
-                        <h4>GLobal Price</h4>
-                        
-                        <ul>
-                           <li><a href="#">Average Bitcoin Price</a></li>
-                            <li><a href="#">API Documentation</a></li>
-                            <li><a href="#">API Statics</a></li>
-                            <li><a href="#">Currency Market</a></li>
-                            <li><a href="#">Unlimited API request</a></li>
-                            <li><a href="#">Bitcoin Price report 2016</a></li>
-                        </ul>
-                    </div>
-                </div> 
+            
                
                 <div class="col-md-4 col-sm-6">
                     <div class="widget news-widget">
