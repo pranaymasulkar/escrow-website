@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,61 +13,41 @@ const Header = () => {
                         <span className="icon-bar middle-bar"></span>
                         <span className="icon-bar bottom-bar"></span>
                     </button>
-                    <a data-scroll href="#hero" className="navbar-brand">
+                    <Link data-scroll to="/" className="navbar-brand">
                         <img src="img/assets/logo-light.png" className="logo-light" alt="#"/>
                         <img src="img/assets/logo-dark.png" className="logo-dark" alt="#"/>
-                    </a>
+                    </Link>
                     <div className="loginbtnhed">
                     <a className="btn btn-warning" href="https://escrow.hvambit.com">Login</a>
                     </div>
                 </div>
                 <div className="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul className="nav navbar-nav">
-
-                        {/* <!--<li className="dropdown">
-                        <a href="" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Pages<i className="fa fa-angle-down"></i></a>
-                            <ul className="dropdown-menu" role="menu">
-                                <li><a href="about.html" className="page-scroll">About</a></li>
-                                <li><a href="service.html" className="page-scroll">Services</a></li>
-                                <li><a href="team.html" className="page-scroll">Team</a></li>
-                                <li><a href="blog.html" className="page-scroll">Blog</a></li>
-                                <li><a href="contact.html" className="page-scroll">Contact</a></li>
-                            </ul>
+                        <li>
+                            <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <a data-scroll href="contact.html">Contact</a>
-                        </li>--> */}
-                        
-                        <li>
-                            <a data-scroll href="index.html">Home</a>
+                            <NavLink to="/">Swapping</NavLink>
                         </li>
                         <li>
-                            <a data-scroll href="/admin/pages/sign-in.html">Swapping</a>
+                            <a href="https://escrow.hvambit.com">Escrow</a>
                         </li>
                         <li>
-                            <a data-scroll href="/admin/pages/sign-in.html">Escrow</a>
-                        </li>
-                        {/* <!--
-                        <li>
-                            <a data-scroll href="index.html#features">Add HVAM Token</a>
-                        </li>
-                        --> */}
-                        <li>
-                            <a data-scroll href="team.html">Certificate</a>
+                            <NavLink to="/">Certificate</NavLink>
                         </li>
                         <li>
-                            <a data-scroll href="team.html">Team</a>
+                            <NavLink to="/">Team</NavLink>
                         </li>	
                         <li>
-                            <a data-scroll href="blog.html">Blog</a>
+                            <NavLink to="/">Blog</NavLink>
                         </li>
                         <li>
-                            <a href="#">
+                            <NavLink to="/" >
                                 <i className="icon ion-social-twitter"></i> Twitter
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a data-scroll href="https://escrow.hvambit.com/register">Register</a>
+                            <a href="https://escrow.hvambit.com/register">Register</a>
                         </li>
                         <li className="quote">
                             <a href="https://escrow.hvambit.com">Login</a>
