@@ -1,7 +1,26 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
-import IconCreateEscow from "../assets/img/assets/create-escrow.png";
+import IconCreateEscow from "../assets/img/create-escrow.png";
+import Iconfundescrow from "../assets/img/fund-escrow.png";
+import Iconverify from "../assets/img/verify.png";
+import Icondeliveryconfirmation from "../assets/img/delivery-confirmation.png";
+import Iconreleasefund from "../assets/img/release-fund.png";
+import IconRegistration from "../assets/img/registration.png";
+import Iconincrease from "../assets/img/increase.png";
+import Iconsafeandsecure from "../assets/img/safe-and-secure.png";
+import Iconquicktransfer from "../assets/img/quick-transfer.png";
+import Iconmakepayment from "../assets/img/make-payment.png";
+import Iconsecurewallet from "../assets/img/secure-wallet.png";
+import Iconavailability from "../assets/img/availability.png";
+import Iconrecurring from "../assets/img/recurring.png";
+import Iconchange from "../assets/img/change.png";
+
+import IconProjectComplete from "../assets/img/project-complete.png";
+import IconHappyClients from "../assets/img/happy-clients.png";
+import IconLineOfWork from "../assets/img/line-of-work.png";
+import IconAwardsWon from "../assets/img/award.png";
+
 const Home = () => {
   return (
     <>
@@ -17,7 +36,7 @@ const Home = () => {
                 <div className="hero-content">
                     <div className="col-sm-12 m-auto text-center white fadeHero">
                         <h6 className="subheading">Welcome to</h6>
-                        <h1 className="h1-lg mb10 text-uppercase">HVAM BIT</h1>
+                        <h1 className="h1-lg mb10 text-uppercase">HVAMBIT</h1>
                         {/* <ul className="list-inline banner-info">
                             <li><span>4.8 </span> Million
                                 <br/>Transactions</li>
@@ -48,11 +67,11 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-4 col-sm-4 col-12">
-                        <div className="service-box text-center">
-                            <div className="icon-box service-icon icon-lg">
-                                <i className="icon ion-android-sync"></i>
-                                {/* <img src={IconCreateEscow} alt="" className="img-responsive"/> */}
+                    <div className="col-md-1 col-sm-1 col-12"></div>
+                    <div className="col-md-2 col-sm-2 col-12">
+                        <div className="service-box text-center active">
+                            <div className="icon-box service-icon icon-lg imgebox">
+                                <img src={IconCreateEscow} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
                                 {/* <!--<h4>2. <span>FUND ESCROW</span></h4>--> */}
@@ -62,10 +81,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4 col-12">
-                        <div className="service-box text-center active">
-                            <div className="icon-box service-icon icon-lg">
-                                <i className="icon ion-android-share"></i>
+                    <div className="col-md-2 col-sm-2 col-12">
+                        <div className="service-box text-center">
+                            <div className="icon-box service-icon icon-lg imgebox">
+                                <img src={Iconfundescrow} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
                                 <h4>FUND <span>ESCROW</span></h4>
@@ -74,10 +93,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4 col-12">
-                        <div className="service-box text-center">
-                            <div className="icon-box service-icon icon-lg">
-                                <i className="icon ion-android-bicycle"></i>
+                    <div className="col-md-2 col-sm-2 col-12">
+                        <div className="service-box text-center active">
+                            <div className="icon-box service-icon icon-lg imgebox">
+                                <img src={Iconverify} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner ">
                                 <h4>VERIFIES <span>DOCUMENTS</span></h4>
@@ -86,11 +105,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2 col-sm-2 col-12"></div>
-                    <div className="col-md-4 col-sm-4 col-12">
-                        <div className="service-box text-center active">
-                            <div className="icon-box service-icon icon-lg">
-                                <i className="icon ion-android-share"></i>
+                    <div className="col-md-2 col-sm-2 col-12">
+                        <div className="service-box text-center">
+                            <div className="icon-box service-icon icon-lg imgebox">
+                                <img src={Icondeliveryconfirmation} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
                                 <h4>DELIVERY <span>CONFIRMATION</span></h4>
@@ -99,10 +117,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4 col-12">
+                    <div className="col-md-2 col-sm-2 col-12">
                         <div className="service-box text-center active">
-                            <div className="icon-box service-icon icon-lg">
-                                <i className="icon ion-android-share"></i>
+                            <div className="icon-box service-icon icon-lg imgebox">
+                                <img src={Iconreleasefund} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
                                 <h4>RELEASE <span>FUNDS</span></h4>
@@ -168,8 +186,8 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-md-3 col-sm-3">
                                     <div className="work-inner-box">
-                                        <div className="icon-box work-icon icon-lg">
-                                            <img src="img/icon/icon1.png" alt="" className="img-responsive"/>
+                                        <div className="icon-box work-icon icon-lg imgebox">
+                                            <img src={IconRegistration} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
                                         <h4>1. Registration</h4>
                                         <p>Sign up now to discover our exclusive benefits.</p>
@@ -178,8 +196,8 @@ const Home = () => {
 
                                 <div className="col-md-3 col-sm-3">
                                     <div className="work-inner-box">
-                                        <div className="icon-box work-icon icon-lg">
-                                            <img src="img/icon/icon2.png" alt="" className="img-responsive"/>
+                                        <div className="icon-box work-icon icon-lg imgebox">
+                                            <img src={Iconincrease} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
                                         <h4>2. Increase your balance</h4>
                                         <p>Profit increases by increasing your balance.</p>
@@ -187,8 +205,8 @@ const Home = () => {
                                 </div>
                                 <div className="col-md-3 col-sm-3">
                                     <div className="work-inner-box">
-                                        <div className="icon-box work-icon icon-lg">
-                                            <img src="img/icon/icon3.png" alt="" className="img-responsive"/>
+                                        <div className="icon-box work-icon icon-lg imgebox">
+                                            <img src={Iconsafeandsecure} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
                                         <h4>3. Save your money and transaction</h4>
                                         <p>Wait for your profit to increase.</p>
@@ -196,8 +214,8 @@ const Home = () => {
                                 </div>
                                 <div className="col-md-3 col-sm-3">
                                     <div className="work-inner-box">
-                                        <div className="icon-box work-icon icon-lg">
-                                            <img src="img/icon/icon3.png" alt="" className="img-responsive"/>
+                                        <div className="icon-box work-icon icon-lg imgebox">
+                                            <img src={Iconquicktransfer} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
                                         <h4>4. Quick transfer</h4>
                                         <p>Do your commercial transfer safe, fast, and cost-effective.</p>
@@ -225,7 +243,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-1.png" alt="" className="img-responsive"/>
+                                <img src={Iconsafeandsecure} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Safe and secure</h4>
@@ -236,7 +254,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-2.png" alt="" className="img-responsive"/>
+                                <img src={Iconmakepayment} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Make Payment</h4>
@@ -247,7 +265,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-3.png" alt="" className="img-responsive"/>
+                                <img src={Iconsecurewallet} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Secure Wallet</h4>
@@ -260,7 +278,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-4.png" alt="" className="img-responsive"/>
+                                <img src={Iconavailability} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Higher Availibilty</h4>
@@ -271,7 +289,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-5.png" alt="" className="img-responsive"/>
+                                <img src={Iconrecurring} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Recurring Buying</h4>
@@ -282,7 +300,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="feature-box">
                             <div className="feature-icon">
-                                <img src="img/service/service-6.png" alt="" className="img-responsive"/>
+                                <img src={Iconchange} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
                                 <h4>Instant Exchnage</h4>
@@ -363,7 +381,7 @@ const Home = () => {
                     <div className="col-md-3 col-sm-3">&nbsp;
                     </div>				
                 
-                <div className="col-md-9 m-auto">
+                {/* <div className="col-md-9 m-auto">
                     <div className="carousel slide" id="testimonial-carousel" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="item active">
@@ -421,7 +439,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div> */}
                     
                 </div>
             </div>
@@ -462,7 +480,7 @@ const Home = () => {
                         <div className="heading m-auto text-center ">
                             <h2 className="f-xbold">Updated Price Rate</h2>
                             <hr className="seperator"/>
-                            <p>With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.</p>
+                            <p>Markets Overview</p>
                         </div>
                     </div>
                 </div>
@@ -559,14 +577,18 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
                         <div className="single-project-complete">
-                            <i className="icon ion-thumbsup"></i>
+                            <div className="imgebox">
+                                <img src={IconProjectComplete} alt="" className="img-responsive imageres"/>
+                            </div>
                             <h3>project complete</h3>
                             <h2 className="counter-num">1200</h2>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="single-project-complete">
-                            <i className="icon ion-ios-people"></i>
+                            <div className="imgebox">
+                                <img src={IconHappyClients} alt="" className="img-responsive imageres"/>
+                            </div>
                             <h3>Happy Clients</h3>
                             <h2 className="counter-num">1000</h2>
 
@@ -574,14 +596,18 @@ const Home = () => {
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="single-project-complete">
-                            <i className="icon ion-android-globe"></i>
+                            <div className="imgebox">
+                                <img src={IconLineOfWork} alt="" className="img-responsive imageres"/>
+                            </div>
                             <h3>Line of Work</h3>
                             <h2 className="counter-num">56090</h2>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="single-project-complete">
-                            <i className="fa fa-angellist"></i>
+                            <div className="imgebox">
+                                <img src={IconAwardsWon} alt="" className="img-responsive imageres"/>
+                            </div>
                             <h3>Awards won</h3>
                             <h2 className="counter-num">31</h2>
                         </div>
@@ -608,10 +634,10 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6">
                         <div className="our-team">
                             <div className="pic">
-                                <img src="img/team/img-1.jpg" alt="Team image"/>
+                                <img src="img/team/avtar.jpg" alt="Team image"/>
                             </div>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                            <h3 className="title">Name</h3>
+                            <span className="post">Position</span>
                             <ul className="social">
                                 <li><a href="#" className="fa fa-facebook"></a></li>
                                 <li><a href="#" className="fa fa-twitter"></a></li>
@@ -624,10 +650,10 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6">
                         <div className="our-team">
                             <div className="pic">
-                                <img src="img/team/img-2.jpg" alt="Team image"/>
+                                <img src="img/team/avtar.jpg" alt="Team image"/>
                             </div>
-                            <h3 className="title">Kristiana</h3>
-                            <span className="post">Web Designer</span>
+                            <h3 className="title">Name</h3>
+                            <span className="post">Position</span>
                             <ul className="social">
                                 <li><a href="#" className="fa fa-facebook"></a></li>
                                 <li><a href="#" className="fa fa-twitter"></a></li>
@@ -639,10 +665,10 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6">
                         <div className="our-team">
                             <div className="pic">
-                                <img src="img/team/img-3.jpg" alt="Team image"/>
+                                <img src="img/team/avtar.jpg" alt="Team image"/>
                             </div>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                            <h3 className="title">Name</h3>
+                            <span className="post">Position</span>
                             <ul className="social">
                                 <li><a href="#" className="fa fa-facebook"></a></li>
                                 <li><a href="#" className="fa fa-twitter"></a></li>
@@ -655,10 +681,10 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6">
                         <div className="our-team">
                             <div className="pic">
-                                <img src="img/team/img-4.jpg" alt="Team image"/>
+                                <img src="img/team/avtar.jpg" alt="Team image"/>
                             </div>
-                            <h3 className="title">Kristiana</h3>
-                            <span className="post">Web Designer</span>
+                            <h3 className="title">Name</h3>
+                            <span className="post">Position</span>
                             <ul className="social">
                                 <li><a href="#" className="fa fa-facebook"></a></li>
                                 <li><a href="#" className="fa fa-twitter"></a></li>
@@ -796,12 +822,12 @@ const Home = () => {
                             <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingOne">
                                     <h4 className="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             What is HVAM BIT?
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div id="collapseOne" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div className="panel-body">
                                         <p>HVAM BIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals. </p>
                                     </div>
@@ -955,7 +981,7 @@ const Home = () => {
                     {/* <!-- COl end -->  */}
                     
                     <div className="col-md-6">
-                    <img src="img/about/faq2.png" alt="" className="img-responsive m-auto"/>
+                    <img src="img/about/faq2.jpg" alt="" className="img-responsive m-auto"/>
                 </div>
                 </div>
             </div>
