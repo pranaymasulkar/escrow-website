@@ -31,7 +31,7 @@ const Footer = () => {
                             <div className="input-card-form newsletter">
                                 <input type="email" className="form-control newsletter-input" id="newsletter_email_footer" name="email" placeholder="Email Address" aria-label="Email Address" maxlength="99"/>
                             </div>
-                            <button type="submit" name="submit" value="form" className="btn btn-primary newsletter-button">Subscribe</button>
+                            <button type="submit" name="submit" value="form" className="btn btn-warning newsletter-button">Subscribe</button>
                             </div>
                             {/* <!-- End Input Card --> */}
                             <div id="form_newsletter_response"></div>
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-2 col-sm-6">
                         <div className="widget news-widget">
-                            <h4>HVAM DMCC</h4>
+                            <h4>HVAMBIT</h4>
                             
                             <ul>
                                 <li><a href="#">ADD HVAM</a></li>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 <li><i className="fa fa-map-marker"></i>Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX</li>
                                 <li><i className="fa fa-phone"></i> <span>+44 7488 8808 02</span></li>
                                 <li><i className="fa fa-phone"></i> <span>+97150 401 7415</span></li>
-                                <li><i className="fa fa-envelope-o"></i> <span>Info@hvamcoins.com</span></li>
+                                <li><i className="fa fa-envelope-o"></i> <span>infor@hvambit.com</span></li>
                             </ul>
                             
                             <ul className="list-inline">
@@ -91,7 +91,7 @@ const Footer = () => {
                     <div className="col-md-12 text-center">
                         <p className="copy ">
                             {/* <!--Bitcoin is unstabe source of statics income over virtual world. <br>--> */}
-                            All copyright Reserved to <span>HVAM DMCC</span> 2022</p>
+                            All copyright Reserved to <span>HVAMBIT</span> 2022</p>
                     </div>
                 </div>
             </div>

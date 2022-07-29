@@ -21,6 +21,35 @@
     margin: 0 auto;
     padding-top: 0px;
 }
+
+.buyhamsec .priceformsec {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    padding: 20px;
+    border-width: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
+}
+.buyhamsec .priceformsec .form-control {
+    margin-bottom: 0;
+}
+.buyhamsec .priceformsec .logoimg {
+    width: 98px;
+    height: 98px;
+    margin-right: 20px;
+}
+.buyhamsec .priceformsec h4 {
+    margin: 15px 0 10px;
+}
+.buyhamsec .priceformsec h1 {
+    font-size: 4.5rem;
+}
+.buyhamsec .btn-warning {
+    margin-top: 40px;
+}
+
 @media (max-width: 767px) {
     .loginbtnhed {
         display: inline-block;

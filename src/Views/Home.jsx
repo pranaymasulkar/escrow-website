@@ -20,6 +20,9 @@ import IconProjectComplete from "../assets/img/project-complete.png";
 import IconHappyClients from "../assets/img/happy-clients.png";
 import IconLineOfWork from "../assets/img/line-of-work.png";
 import IconAwardsWon from "../assets/img/award.png";
+import Icondolar from "../assets/img/dolar-transparent.png";
+import IconHvamBit from "../assets/img/FullLogo_Transparent_2.png";
+
 
 const Home = () => {
   return (
@@ -324,123 +327,33 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* <!--   1st row end--> */}
-            
-                {/* <!--<div className="row">
-                    <div className="col-md-8 m-auto clients-wrap">
-                        <div className="row">
-                            <div className="col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="img/partner/partner1.png" alt="" className="img-responsive center-block">
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                <img src="img/partner/partner2.png" alt="" className="img-responsive center-block">
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-26">
-                                <div className="client-logo">
-                                    <img src="img/partner/partner3.png" alt="" className="img-responsive center-block">
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="img/partner/partner2.png" alt="" className="img-responsive center-block">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --> */}
-                {/* <!--   2nd row end--> */}
                 
-                <div className="row">
-                    <div className="col-md-3 col-sm-3">&nbsp;
+                <div className="row buyhamsec">
+                    <div className="col-md-2 col-sm-12 col-12">
                     </div>
-                    <div className="col-md-3 col-sm-3">
-                        <div className="testimonial-wrap">	
-                            <p>&nbsp;</p>					
-                            <img src="img/about/dolar-transparent.png" style={{width: '98px', high: '98px'}} alt="" className="img-responsive"/>
-                            <div className="client-info">
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="priceformsec">
+                            <img src={Icondolar} alt="" className="img-responsive logoimg"/>
+                            <div>
                                 <h4>Dolar</h4>
-                                <p>2</p>
+                                <input type="email" className="form-control" name="email" placeholder="$ x,xx.xx" aria-label="$ x,xx.xx"/>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-3">
-                        <div className="testimonial-wrap">
-                            <p>&nbsp;</p>
-                            
-                            <img src="img/about/FullLogo_Transparent_2.png" style={{width: '98px', high: '98px'}} alt="" className="img-responsive"/>
-                            <div className="client-info">
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="priceformsec">
+                            <img src={IconHvamBit} alt="" className="img-responsive logoimg"/>
+                            <div>
                                 <h4>HVAM</h4>
-                                <p>$1</p>
+                                <h1>0,00</h1>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-3">&nbsp;
-                    </div>				
-                
-                {/* <div className="col-md-9 m-auto">
-                    <div className="carousel slide" id="testimonial-carousel" data-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="item active">
-                                <div className="row">
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="testimonial-wrap">
-                                            <p>Beatae fugit fugiat aperiam odio aliquid obcaecati ad, cupiditate sequi repudiandae necessitatibus minus debitis officia maxime id sint deserunt, quia quis mollitia.</p>
-                                            
-                                            <img src="img/about/tm2.jpg" alt="" className="img-responsive"/>
-                                            <div className="client-info">
-                                                <h4>Nikol Tin</h4>
-                                                <p>Senior Consutant ,Softcorner INc</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="testimonial-wrap">
-                                            <p>Beatae fugit fugiat aperiam odio aliquid obcaecati ad, cupiditate sequi repudiandae necessitatibus minus debitis officia maxime id sint deserunt, quia quis mollitia.</p>
-                                            
-                                            <img src="img/about/tm3.jpg" alt="" className="img-responsive"/>
-                                            <div className="client-info">
-                                                <h4>Martin Guptil</h4>
-                                                <p>Consutant ,Softcorner INc</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div className="item">
-                                <div className="row">
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="testimonial-wrap">
-                                            <p>Beatae fugit fugiat aperiam odio aliquid obcaecati ad, cupiditate sequi repudiandae necessitatibus minus debitis officia maxime id sint deserunt, quia quis mollitia.</p>
-                                            
-                                            <img src="img/about/tm4.jpg" alt="" className="img-responsive"/>
-                                            <div className="client-info">
-                                                <h4>Nikol Tin</h4>
-                                                <p>Senior Consutant ,Softcorner INc</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="testimonial-wrap">
-                                            <p>Beatae fugit fugiat aperiam odio aliquid obcaecati ad, cupiditate sequi repudiandae necessitatibus minus debitis officia maxime id sint deserunt, quia quis mollitia.</p>
-                                            
-                                            <img src="img/about/tm.jpg" alt="" className="img-responsive"/>
-                                            <div className="client-info">
-                                                <h4>Martin Guptil</h4>
-                                                <p>Consutant ,Softcorner INc</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-                    
+                    <div className="col-md-2 col-sm-12 col-12">
+                    </div>	
+                    <div className="col-md-12 col-sm-12 col-12 text-center">
+                        <button type="submit" name="submit" value="form" className="btn btn-warning">Buy HVAM</button>
+                    </div>			
                 </div>
             </div>
         </section>
@@ -448,14 +361,13 @@ const Home = () => {
         
         {/* <!-- Start parallax Section --> */}
         <section id="parallax">
-        <div className="overlay-bg"></div>
-            <div className="container">
+            <div className="overlay-bg"></div>
+                <div className="container">
                 <div className="col-sm-8 text-center m-auto pt100 pb100 border-top">
                     <div className="white text-center parallax-info">
                         <h4 className="mb10 lspacing">Give Us A Call</h4>
                         <h1>+97150 401 7415</h1>
-
-                        <p>Office 407, Indogo Tower Jumeirah Lakes Towers (JLT), Dubai ,United Arab Emirates (UAE).<br/> info@hvamcoins.com</p>
+                        <p>Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom<br/> Info@hvambit.com</p>
 
                         <ul className="social-icons fadeIn">
                             <li><a href="#"><i className="fa fa-facebook white"></i></a></li>
@@ -706,7 +618,7 @@ const Home = () => {
                         <div className="heading m-auto text-center ">
                             <h2 className="f-xbold">Recent blog update</h2>
                             <hr className="seperator"/>
-                            <p>Latest article from HVAM BIT.</p>
+                            <p>Latest article from HVAMBIT.</p>
                         </div>
                     </div>
                 </div>
