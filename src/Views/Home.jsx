@@ -158,7 +158,7 @@ const Home = () => {
                                 <li><i className="icon ion-checkmark"></i>Clear Navigation</li>
                             </ul>
                             
-                            <a href="https://escrow.hvambit.com/register" className="btn btn-black ">Join Now</a>
+                            <a href="https://escrow.hvambit.com/register" className="btn btn-warning">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Make Payment</h4>
-                                <p>we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
                             </div>
                         </div>
                     </div>
@@ -272,7 +272,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Secure Wallet</h4>
-                                <p>we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Higher Availibilty</h4>
-                                <p>we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Recurring Buying</h4>
-                                <p>we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
                             </div>
                         </div>
                     </div>
@@ -307,7 +307,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Instant Exchnage</h4>
-                                <p>we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
                             </div>
                         </div>
                     </div>
@@ -377,7 +377,7 @@ const Home = () => {
                             <li><a href="#"><i className="fa fa-behance white"></i></a></li>
                             <li><a href="#"><i className="fa fa-dribbble white"></i></a></li>
                         </ul>
-                        <h6>we don't <span className="highlight">enclose</span> your information with anyone.</h6>
+                        {/* <h6>we don't <span className="highlight">enclose</span> your information with anyone.</h6> */}
                     </div>
                 </div>
             </div>

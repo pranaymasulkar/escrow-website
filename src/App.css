@@ -53,6 +53,9 @@
     margin-top: 40px;
 }
 
+.whychooscont-hide {
+    visibility: hidden;
+}
 @media (max-width: 767px) {
     .loginbtnhed {
         display: inline-block;
