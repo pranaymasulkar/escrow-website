@@ -22,7 +22,7 @@ import IconLineOfWork from "../assets/img/line-of-work.png";
 import IconAwardsWon from "../assets/img/award.png";
 import Icondolar from "../assets/img/dolar-transparent.png";
 import IconHvamBit from "../assets/img/FullLogo_Transparent_2.png";
-
+import tiktoky from "../assets/img/tiktiky.png";
 
 const Home = () => {
   return (
@@ -158,7 +158,7 @@ const Home = () => {
                                 <li><i className="icon ion-checkmark"></i>Clear Navigation</li>
                             </ul>
                             
-                            <a href="https://escrow.hvambit.com/register" className="btn btn-warning">Join Now</a>
+                            <a href="https://escrow.hvambit.com/register" className="btn btn-black ">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -352,7 +352,7 @@ const Home = () => {
                     <div className="col-md-2 col-sm-12 col-12">
                     </div>	
                     <div className="col-md-12 col-sm-12 col-12 text-center">
-                        <button type="submit" name="submit" value="form" className="btn btn-warning">Buy HVAM</button>
+                        <button type="submit" name="submit" value="form" className="btn btn-black buybtn">Buy HVAM</button>
                     </div>			
                 </div>
             </div>
@@ -370,12 +370,13 @@ const Home = () => {
                         <p>Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom<br/> Info@hvambit.com</p>
 
                         <ul className="social-icons fadeIn">
-                            <li><a href="#"><i className="fa fa-facebook white"></i></a></li>
-                            <li><a href="#"><i className="fa fa-twitter white"></i></a></li>
-                            <li><a href="#"><i className="fa fa-instagram white"></i></a></li>
-                            <li><a href="#"><i className="fa fa-google-plus white"></i></a></li>
-                            <li><a href="#"><i className="fa fa-behance white"></i></a></li>
-                            <li><a href="#"><i className="fa fa-dribbble white"></i></a></li>
+                            <li><a href="https://www.facebook.com/hvamcoins"><i className="fa fa-facebook white"></i></a></li>
+                            <li><a href="https://twitter.com/HvamCoins"><i className="fa fa-twitter white"></i></a></li>
+                            <li><a href="https://www.instagram.com/hvambit/"><i className="fa fa-instagram white"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/hvam-coins-a58307173/"><i className="fa fa-linkedin white"></i></a></li>
+                            {/* <li><a href="#"><i className="fa fa-google-plus white"></i></a></li> */}
+                            <li><a href="https://www.hvamcoins.com"><i className="fa fa-dribbble white"></i></a></li>
+                            <li><a href="http://www.tiktok.com/@hvambit"><img src={tiktoky} alt="" style={{width: '15px'}} /></a></li>
                         </ul>
                         {/* <h6>we don't <span className="highlight">enclose</span> your information with anyone.</h6> */}
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import tiktokw from "../assets/img/tiktikw.png"
 
 const Footer = () => {
   return (
@@ -40,12 +41,6 @@ const Footer = () => {
                                 <li><a href="#">&nbsp;</a></li>
                                 <li><a href="#">You can unsubscribe at any time</a></li>
                             </ul>	
-                            {/* <!--   <li><a href="#">Unlimited API request</a></li>
-                                <li><a href="#">Bitcoin Price report 2016</a></li>
-                                <li><a href="#">Average Bitcoin Price</a></li>
-                                <li><a href="#">API Documentation</a></li>
-                                <li><a href="#">API Statics</a></li>
-                            </ul>--> */}
                         </div>
                     </div>
                     <div className="col-md-2 col-sm-6">
@@ -75,13 +70,11 @@ const Footer = () => {
                             </ul>
                             
                             <ul className="list-inline">
-                                <li><a href="#"><i className="icon ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-googleplus"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-instagram"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-tumblr"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-rss"></i></a></li>
-                                <li><a href="#"><i className="icon ion-social-vimeo"></i></a></li>
+                                <li><a href="https://www.facebook.com/hvamcoins"><i className="icon ion-social-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/HvamCoins"><i className="icon ion-social-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/hvambit/"><i className="icon ion-social-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/hvam-coins-a58307173/"><i className="icon ion-social-linkedin"></i></a></li>
+                                <li><a href="http://www.tiktok.com/@hvambit"><img src={tiktokw} alt="" className="icon" style={{width: '10px', marginTop: '-3px'}} /></a></li>
                             </ul>
                         </div>
                     </div>
