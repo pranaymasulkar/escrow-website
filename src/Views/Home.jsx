@@ -40,14 +40,14 @@ const Home = () => {
                     <div className="col-sm-12 m-auto text-center white fadeHero">
                         <h6 className="subheading">Welcome to</h6>
                         <h1 className="h1-lg mb10 text-uppercase">HVAMBIT</h1>
-                        {/* <ul className="list-inline banner-info">
+                        <ul className="list-inline banner-info">
                             <li><span>4.8 </span> Million
                                 <br/>Transactions</li>
                             <li><span>24 </span> Hours
                                 <br/>Response time</li>
                             <li><span>92 </span> Percent
                                 <br/>Satisfaction rate</li>
-                        </ul> */}
+                        </ul>
                         <h5 className="lead h5-md mt30 mb20">A New Vision of Banking Services backed by Blockchain. 
                         <br/>Make your trade easier with HVAM BIT.</h5>
                         <a href="https://escrow.hvambit.com/register" className="btn btn-hero">Join Now</a>

@@ -395,13 +395,14 @@ nav.navbar {
     height: 100%;
     text-align: center;
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 .hero-content {
     display: table-cell;
     height: 100%;
     vertical-align: middle;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
 .hero-content h5 {
@@ -2284,6 +2285,7 @@ p {
     
     .hero-container{
         padding-top: 0px;
+        padding-bottom: 0px;
     }
     
     #hero {
