@@ -2,6 +2,9 @@
     background-image: url(/src/assets/img/backgrounds/header.jpg);
     opacity: 1;
 }
+.herohead:before {
+    display: none;
+}
 .loginbtnhed {
     display: none;
 }
