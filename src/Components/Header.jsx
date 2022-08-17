@@ -36,7 +36,7 @@ const Header = () => {
                             <NavLink to="/">soon</NavLink>
                         </li>
                         <li>
-                            <a href="https://hvambit.com/HVAMWHITEPAPER.pptx">WHITEPAPER</a>
+                            <a href="https://hvambit.com/HVAMWHITEPAPER.pptx" download="https://hvambit.com/HVAMWHITEPAPER.pptx">WHITEPAPER</a>
                         </li>	
                         <li>
                             <NavLink to="/">Roadmap</NavLink>

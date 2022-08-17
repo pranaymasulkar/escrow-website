@@ -358,14 +358,14 @@ const Home = () => {
                             <img src={IconHvamBit} alt="" className="img-responsive logoimg"/>
                             <div>
                                 <h4>HVAM</h4>
-                                <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}</h1>
+                                <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}<span style={{fontSize: '16px'}}>USD</span></h1>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-2 col-sm-12 col-12">
                     </div>	
                     <div className="col-md-12 col-sm-12 col-12 text-center">
-                        <button type="submit" name="submit" value="form" className="btn btn-black buybtn">Buy HVAM</button>
+                        <a href="https://escrow.hvambit.com/" className="btn btn-black buybtn">Buy HVAM</a>
                     </div>			
                 </div>
             </div>
