@@ -336,7 +336,7 @@ const Home = () => {
                             <img src={Icondolar} alt="" className="img-responsive logoimg"/>
                             <div>
                                 <h4>Dolar</h4>
-                                <input type="email" className="form-control" name="email" placeholder="$ x,xx.xx" aria-label="$ x,xx.xx"/>
+                                <input type="email" className="form-control" name="email" placeholder="$1" aria-label="$1"/>
                             </div>
                         </div>
                     </div>
@@ -616,7 +616,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="heading m-auto text-center ">
+                        <div className="m-auto text-center ">
                             <h2 className="f-xbold">Recent blog update</h2>
                             <hr className="seperator"/>
                             <p>Latest article from HVAMBIT.</p>
@@ -624,7 +624,7 @@ const Home = () => {
                     </div>
                 </div>
                 
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-4 col-sm-4">
                         <div className="blog-single">
                             <img src="img/blog/blog_1.jpg" alt="" className="img-responsive"/>
@@ -710,7 +710,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
         {/* <!-- End Blog Section -->   */}

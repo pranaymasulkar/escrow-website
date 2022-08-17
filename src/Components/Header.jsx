@@ -33,7 +33,7 @@ const Header = () => {
                             <NavLink to="/">Swapping</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/">wallet</NavLink>
+                            <NavLink to="/">soon</NavLink>
                         </li>
                         <li>
                             <a href="https://hvambit.com/HVAMWHITEPAPER.pptx">WHITEPAPER</a>
