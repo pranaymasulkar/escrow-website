@@ -65,7 +65,7 @@ const Footer = () => {
                             <ul className="footer-contact">
                                 <li><i className="fa fa-map-marker"></i>Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX</li>
                                 <li><i className="fa fa-phone"></i> <span>+44 7488 8808 02</span></li>
-                                <li><i className="fa fa-phone"></i> <span>+97150 401 7415</span></li>
+                                {/* <li><i className="fa fa-phone"></i> <span>+97150 401 7415</span></li> */}
                                 <li><i className="fa fa-envelope-o"></i> <span>infor@hvambit.com</span></li>
                             </ul>
                             
@@ -82,9 +82,8 @@ const Footer = () => {
                 
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <p className="copy ">
-                            {/* <!--Bitcoin is unstabe source of statics income over virtual world. <br>--> */}
-                            All copyright Reserved to <span>HVAMBIT</span> 2022</p>
+                        <p className="copy ">Copyright © <span>HVAMBIT</span> UK by High-Value Asset Management. All Rights Reserved.</p>
+                            
                     </div>
                 </div>
             </div>

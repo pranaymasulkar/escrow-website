@@ -48,8 +48,8 @@ const Home = () => {
                             <li><span>92 </span> Percent
                                 <br/>Satisfaction rate</li>
                         </ul>
-                        <h5 className="lead h5-md mt30 mb20">A New Vision of Banking Services backed by Blockchain. 
-                        <br/>Make your trade easier with HVAM BIT.</h5>
+                        <h5 className="lead h5-md mt30 mb20">A New Vision of Banking Services backed by Blockchain.  
+                        <br/>Make your trade easier with HVAMBIT.</h5>
                         <a href="https://escrow.hvambit.com/register" className="btn btn-hero">Join Now</a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const Home = () => {
                             </div>
                             <div className="service-inner ">
                                 <h4>VERIFIES <span>DOCUMENTS</span></h4>
-                                <p>Seller to provide proof of deliveries and HVAM to verifies each parties’ documents. </p>
+                                <p>Seller to provide proof of deliveries and HVAM to verifies each parties’ documents.</p>
                                 {/* <a href="#" className="read-more">Read More</a> */}
                             </div>
                         </div>
@@ -115,7 +115,7 @@ const Home = () => {
                             </div>
                             <div className="service-inner">
                                 <h4>DELIVERY <span>CONFIRMATION</span></h4>
-                                <p>The buyer now has a specific inspection period to verify the product before the acceptance or rejection. </p>
+                                <p>The buyer now has a specific inspection period to verify the product before the acceptance or rejection.</p>
                                 {/* <a href="#" className="read-more">Read More</a> */}
                             </div>
                         </div>
@@ -127,7 +127,7 @@ const Home = () => {
                             </div>
                             <div className="service-inner">
                                 <h4>RELEASE <span>FUNDS</span></h4>
-                                <p>If the product meets the specifications and conditions agreed upon, HVAM may now release the funds to the seller accordingly. </p>
+                                <p>If the product meets the specifications and conditions agreed upon, HVAM may now release the funds to the seller accordingly.</p>
                                 {/* <a href="#" className="read-more">Read More</a> */}
                             </div>
                         </div>
@@ -148,9 +148,9 @@ const Home = () => {
                         <div className="">
                             <h5 className="subheading">ABOUT US</h5>
                             <h3>Secure &amp; Easy way to trade</h3>
-                            <p>HVAM BIT offers its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals. </p>
+                            <p>HVAMBIT offers its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals. </p>
                             <ul className="about-info-list">
-                                <li><i className="icon ion-checkmark"></i>User’s information and financial security</li>
+                                <li><i className="icon ion-checkmark"></i>User’s information and financial security.</li>
                                 <li><i className="icon ion-checkmark"></i>Confidentiality</li>
                                 <li><i className="icon ion-checkmark"></i>Trouble-free</li>
                                 <li><i className="icon ion-checkmark"></i>Cost-effective</li>
@@ -250,7 +250,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Safe and secure</h4>
-                                <p>Safe trading platform is the upmost goal of HVAM BIT. Personal and financial information will be secured.</p>
+                                <p>Safe trading platform is the upmost goal of HVAMBIT. Personal and financial information will be secured.</p>
                             </div>
                         </div>
                     </div>
@@ -261,7 +261,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Make Payment</h4>
-                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p>Easily and securely make payment for the goods/service you desire.</p>
                             </div>
                         </div>
                     </div>
@@ -272,7 +272,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Secure Wallet</h4>
-                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p>Store all your digital assets securely.</p>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Higher Availibilty</h4>
-                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p>High level of operational performance.</p>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Recurring Buying</h4>
-                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p>Set-up how you want to purchase the cryptocurrency you like.</p>
                             </div>
                         </div>
                     </div>
@@ -307,7 +307,7 @@ const Home = () => {
                             </div>
                             <div className="feature-inner">
                                 <h4>Instant Exchnage</h4>
-                                <p className="whychooscont-hide">we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.</p>
+                                <p>Exchange any cryptocurrency faster, simpler, and in secure way.</p>
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@ const Home = () => {
                     <div className="col-md-12 col-sm-12 ">
                         <div className="clients text-center">
                             <h3>HVAM Rate</h3>
-                            <p>$1 = 2 HVAM</p>
+                            <p>1 HVAM – 0.53 USD</p>
                         </div>
                     </div>
                 </div>
@@ -345,7 +345,7 @@ const Home = () => {
                             <img src={IconHvamBit} alt="" className="img-responsive logoimg"/>
                             <div>
                                 <h4>HVAM</h4>
-                                <h1>0,00</h1>
+                                <h1>0.53</h1>
                             </div>
                         </div>
                     </div>
@@ -366,7 +366,7 @@ const Home = () => {
                 <div className="col-sm-8 text-center m-auto pt100 pb100 border-top">
                     <div className="white text-center parallax-info">
                         <h4 className="mb10 lspacing">Give Us A Call</h4>
-                        <h1>+97150 401 7415</h1>
+                        <h1>+44 7488 8808 02</h1>
                         <p>Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom<br/> Info@hvambit.com</p>
 
                         <ul className="social-icons fadeIn">
@@ -531,7 +531,7 @@ const Home = () => {
         {/* <!-- End Counter Section -->  */}
         
         {/* <!-- Start Team Section --> */}
-        <section id="team" className="section-padding ">
+        {/* <section id="team" className="section-padding ">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -608,7 +608,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  */}
         {/* <!-- End Team Section -->  */}
         
         {/* <!-- Start Blog Section -->  */}
@@ -736,13 +736,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingOne">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is HVAM BIT?
+                                            What is HVAMBIT?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseOne" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div className="panel-body">
-                                        <p>HVAM BIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals. </p>
+                                        <p>HVAMBIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.</p>
                                     </div>
                                 </div>
                             </div>
@@ -815,7 +815,7 @@ const Home = () => {
                                 </div>
                                 <div id="collapseSix" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                     <div className="panel-body">
-                                        <p>HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed. </p>
+                                        <p>HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed.</p>
                                     </div>
                                 </div>
                             </div>
@@ -837,27 +837,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingEight">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            How to create a wallet?
+                                            Is it safe to pay using my financial card?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseEight" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                     <div className="panel-body">
-                                        <p>.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="panel panel-default">
-                                <div className="panel-heading" role="tab" id="headingNine">
-                                    <h4 className="panel-title">
-                                        <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                            Is it safe to pay using my financial card?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseNine" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-                                    <div className="panel-body">
-                                        <p>Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, click <a href="#">here</a>.</p>
+                                        <p>Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, <a href="#">click here.</a></p>
                                     </div>
                                 </div>
                             </div>

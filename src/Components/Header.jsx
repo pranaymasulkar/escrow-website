@@ -27,24 +27,24 @@ const Header = () => {
                             <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/">Swapping</NavLink>
-                        </li>
-                        <li>
                             <a href="https://escrow.hvambit.com">Escrow</a>
                         </li>
                         <li>
-                            <NavLink to="/">Certificate</NavLink>
+                            <NavLink to="/">Swapping</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/">Team</NavLink>
+                            <NavLink to="/">wallet</NavLink>
+                        </li>
+                        <li>
+                            <a href="https://hvambit.com/HVAMWHITEPAPER.pptx">WHITEPAPER</a>
                         </li>	
                         <li>
-                            <NavLink to="/">Blog</NavLink>
+                            <NavLink to="/">Roadmap</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" >
+                            <a href="https://twitter.com/HvamCoins" target="blank">
                                 <i className="icon ion-social-twitter"></i> Twitter
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
                             <a href="https://escrow.hvambit.com/register">Register</a>
