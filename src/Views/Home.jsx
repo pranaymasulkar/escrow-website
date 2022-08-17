@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import IconCreateEscow from "../assets/img/create-escrow.png";
@@ -25,6 +25,13 @@ import IconHvamBit from "../assets/img/FullLogo_Transparent_2.png";
 import tiktoky from "../assets/img/tiktiky.png";
 
 const Home = () => {
+    const [hvmcount, setHvmcount] = useState(1);
+    // const [hvmtotal, setHvmtotal] = useState(0.53);
+
+    const handleChange = event => {
+        setHvmcount(event.target.value);
+        // setHvmtotal((event.target.value * 0.53).toFixed(2));
+      };
   return (
     <>
         <Header/>
@@ -336,7 +343,13 @@ const Home = () => {
                             <img src={Icondolar} alt="" className="img-responsive logoimg"/>
                             <div>
                                 <h4>Dolar</h4>
-                                <input type="email" className="form-control" name="email" placeholder="$1" aria-label="$1"/>
+                                <input className="form-control" placeholder="$1" aria-label="$1"
+                                    type="text"
+                                    id="hvmcount"    
+                                    name="hvmcount"
+                                    onChange={handleChange}
+                                    value={hvmcount}
+                                />
                             </div>
                         </div>
                     </div>
@@ -345,7 +358,7 @@ const Home = () => {
                             <img src={IconHvamBit} alt="" className="img-responsive logoimg"/>
                             <div>
                                 <h4>HVAM</h4>
-                                <h1>0.53</h1>
+                                <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}</h1>
                             </div>
                         </div>
                     </div>
