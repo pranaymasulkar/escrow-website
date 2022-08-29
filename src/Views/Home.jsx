@@ -21,7 +21,7 @@ import IconHappyClients from "../assets/img/happy-clients.png";
 import IconLineOfWork from "../assets/img/line-of-work.png";
 import IconAwardsWon from "../assets/img/award.png";
 import Icondolar from "../assets/img/dolar-transparent.png";
-import IconHvamBit from "../assets/img/FullLogo_Transparent_2.png";
+import IconHvamBit from "../assets/img/logo.png";
 import tiktoky from "../assets/img/tiktiky.png";
 
 const Home = () => {
@@ -330,7 +330,7 @@ const Home = () => {
                     <div className="col-md-12 col-sm-12 ">
                         <div className="clients text-center">
                             <h3>HVAM Rate</h3>
-                            <p>1 HVAM – 0.53 USD</p>
+                            <p>1 HVAM = 0.53 USD</p>
                         </div>
                     </div>
                 </div>
@@ -355,7 +355,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6 col-12">
                         <div className="priceformsec">
-                            <img src={IconHvamBit} alt="" className="img-responsive logoimg"/>
+                            <img src={IconHvamBit} alt="" className="img-responsive weblogoimg"/>
                             <div>
                                 <h4>HVAM</h4>
                                 <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}<span style={{fontSize: '16px'}}>USD</span></h1>
