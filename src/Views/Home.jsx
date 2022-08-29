@@ -343,7 +343,7 @@ const Home = () => {
                             <img src={IconHvamBit} alt="" className="img-responsive weblogoimg"/>
                             <div>
                                 <h4>HVAM</h4>
-                                <input className="form-control" placeholder="$1" aria-label="$1"
+                                <input className="form-control" placeholder="1" aria-label="1"
                                     type="text"
                                     id="hvmcount"    
                                     name="hvmcount"
