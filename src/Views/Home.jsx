@@ -340,9 +340,9 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6 col-12">
                         <div className="priceformsec">
-                            <img src={Icondolar} alt="" className="img-responsive logoimg"/>
+                            <img src={IconHvamBit} alt="" className="img-responsive weblogoimg"/>
                             <div>
-                                <h4>Dolar</h4>
+                                <h4>HVAM</h4>
                                 <input className="form-control" placeholder="$1" aria-label="$1"
                                     type="text"
                                     id="hvmcount"    
@@ -355,9 +355,9 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6 col-12">
                         <div className="priceformsec">
-                            <img src={IconHvamBit} alt="" className="img-responsive weblogoimg"/>
+                            <img src={Icondolar} alt="" className="img-responsive logoimg"/>
                             <div>
-                                <h4>HVAM</h4>
+                                <h4>USD</h4>
                                 <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}<span style={{fontSize: '16px'}}>USD</span></h1>
                             </div>
                         </div>
