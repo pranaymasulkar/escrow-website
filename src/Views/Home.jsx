@@ -21,7 +21,7 @@ import IconHappyClients from "../assets/img/happy-clients.png";
 import IconLineOfWork from "../assets/img/line-of-work.png";
 import IconAwardsWon from "../assets/img/award.png";
 import Icondolar from "../assets/img/dolar-transparent.png";
-import IconHvamBit from "../assets/img/logo.png";
+import IconHvamBit from "../assets/img/logoicon.png";
 import tiktoky from "../assets/img/tiktiky.png";
 
 const Home = () => {
