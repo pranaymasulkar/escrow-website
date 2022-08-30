@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <>
         <Header/>
-        
+
         <section id="hero" className="hero-main parallax ">
             <div className="hero-overlay">
                 <div className="background-image bg-3 herohead">
@@ -450,85 +450,6 @@ const Home = () => {
                 </div>
             </div>
         </section>
-
-        {/* <section id="team" className="section-padding ">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="heading m-auto text-center ">
-                            <h2 className="f-xbold">Excellent team workers</h2>
-                            <hr className="seperator"/>
-                            <p>A highly skilled and motivated team technologists and team leaders with great expertise in trading industry and businesses, with economic advisors who are interested in the smallest details.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="row">
-                    <div className="col-md-3 col-sm-6">
-                        <div className="our-team">
-                            <div className="pic">
-                                <img src="img/team/avtar.jpg" alt="Team image"/>
-                            </div>
-                            <h3 className="title">Name</h3>
-                            <span className="post">Position</span>
-                            <ul className="social">
-                                <li><a href="#" className="fa fa-facebook"></a></li>
-                                <li><a href="#" className="fa fa-twitter"></a></li>
-                                <li><a href="#" className="fa fa-google-plus"></a></li>
-                                <li><a href="#" className="fa fa-linkedin"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="col-md-3 col-sm-6">
-                        <div className="our-team">
-                            <div className="pic">
-                                <img src="img/team/avtar.jpg" alt="Team image"/>
-                            </div>
-                            <h3 className="title">Name</h3>
-                            <span className="post">Position</span>
-                            <ul className="social">
-                                <li><a href="#" className="fa fa-facebook"></a></li>
-                                <li><a href="#" className="fa fa-twitter"></a></li>
-                                <li><a href="#" className="fa fa-google-plus"></a></li>
-                                <li><a href="#" className="fa fa-linkedin"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                        <div className="our-team">
-                            <div className="pic">
-                                <img src="img/team/avtar.jpg" alt="Team image"/>
-                            </div>
-                            <h3 className="title">Name</h3>
-                            <span className="post">Position</span>
-                            <ul className="social">
-                                <li><a href="#" className="fa fa-facebook"></a></li>
-                                <li><a href="#" className="fa fa-twitter"></a></li>
-                                <li><a href="#" className="fa fa-google-plus"></a></li>
-                                <li><a href="#" className="fa fa-linkedin"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="col-md-3 col-sm-6">
-                        <div className="our-team">
-                            <div className="pic">
-                                <img src="img/team/avtar.jpg" alt="Team image"/>
-                            </div>
-                            <h3 className="title">Name</h3>
-                            <span className="post">Position</span>
-                            <ul className="social">
-                                <li><a href="#" className="fa fa-facebook"></a></li>
-                                <li><a href="#" className="fa fa-twitter"></a></li>
-                                <li><a href="#" className="fa fa-google-plus"></a></li>
-                                <li><a href="#" className="fa fa-linkedin"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  */}
 
         <section id="blog" className="section-padding bg-gray">
             <div className="container">
