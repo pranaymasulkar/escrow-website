@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <>
         <Header/>
-        {/* <!-- Start Hero Section --> */}
+        
         <section id="hero" className="hero-main parallax ">
             <div className="hero-overlay">
                 <div className="background-image bg-3 herohead">
@@ -62,9 +62,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Hero Section --> */}
 
-        {/* <!-- Start About Section --> */}
         <section id="services" className="section-padding">
             <div className="container-fluid">
                 <div className="row">
@@ -142,9 +140,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Service Section --> */}
 
-        {/* <!-- Start About Section --> */}
         <section id="about" className="pb60">
             <div className="col-md-6 hidden-xs">
                 <div className="about-bg"></div>
@@ -171,9 +167,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End About Section --> */}
 
-        {/* <!-- Start HOw It Works Section --> */}
         <section id="howorks">
             <div className="bg-feature work-bg">
                 <div className="container">
@@ -237,9 +231,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End HOw It Works Section --> */}
 
-        {/* <!-- Start  Feature Section --> */}
         <section id="features" className="bg-gray section-padding">
             <div className="container">
                 <div className="row">
@@ -321,9 +313,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End  Feature Section --> */}
-        
-        {/* <!-- Start Testimonial Section --> */}
+
         <section id="parallax-contact" className="section-padding">
             <div className="container">
                 <div className="row">
@@ -370,9 +360,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Testimonial Section --> */}
-        
-        {/* <!-- Start parallax Section --> */}
+
         <section id="parallax">
             <div className="overlay-bg"></div>
                 <div className="container">
@@ -396,9 +384,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Parallax Section -->  */}
-        
-        {/* <!-- Start Price chart Section -->  */}
+
         <section id="price" className="section-padding">
             <div className="container">
                 <div className="row">
@@ -410,7 +396,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                
                 <div className="row chartcontain">
                     <div className="col-md-6 col-xs-12">
                         <coingecko-coin-compare-chart-widget id="chartsecbox2"  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
@@ -421,9 +406,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Price Chart Section --> */}
-        
-        {/* <!-- Start Counter Section -->  */}
+
         <section id="counter-wrap">
             <div className="container">
                 <div className="row">
@@ -467,9 +450,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Counter Section -->  */}
-        
-        {/* <!-- Start Team Section --> */}
+
         {/* <section id="team" className="section-padding ">
             <div className="container">
                 <div className="row">
@@ -548,9 +529,7 @@ const Home = () => {
                 </div>
             </div>
         </section>  */}
-        {/* <!-- End Team Section -->  */}
-        
-        {/* <!-- Start Blog Section -->  */}
+
         <section id="blog" className="section-padding bg-gray">
             <div className="container">
                 <div className="row">
@@ -652,9 +631,7 @@ const Home = () => {
                 </div> */}
             </div>
         </section>
-        {/* <!-- End Blog Section -->   */}
-        
-        {/* <!-- Start Faq Section -->   */}
+
         <section id="faq" className="pt120">
             <div className="container">
             <div className="row">
@@ -824,8 +801,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {/* <!-- End Faq Section -->  */}
-        
+
         <Footer/>
     </>
   )
