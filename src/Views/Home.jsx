@@ -322,18 +322,7 @@ const Home = () => {
             </div>
         </section>
         {/* <!-- End  Feature Section --> */}
-        <section style={{paddingTop: '75px'}}>
-            <div className="container">
-                <div className="row">
-                    <div className="float-left">
-                        <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-list-widget>
-                    </div>
-                    <div className="float-left">
-                        <coingecko-coin-compare-chart-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         {/* <!-- Start Testimonial Section --> */}
         <section id="parallax-contact" className="section-padding">
             <div className="container">
@@ -422,12 +411,20 @@ const Home = () => {
                     </div>
                 </div>
                 
-                <div className="row">
-                <div className="col-md-6 col-xs-12">
-                    <div className="price-chart-img">
-                        <img src="img/about/chart.jpg" alt="" className="img-responsive"/>
+                <div className="row chartcontain">
+                    <div className="col-md-6 col-xs-12">
+                        <coingecko-coin-compare-chart-widget id="chartsecbox2"  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
+                    </div>
+                    <div className="col-md-6 col-xs-12">
+                        <coingecko-coin-list-widget coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-list-widget>
                     </div>
                 </div>
+                {/* <div className="row">
+                    <div className="col-md-6 col-xs-12">
+                        <div className="price-chart-img">
+                            <img src="img/about/chart.jpg" alt="" className="img-responsive"/>
+                        </div>
+                    </div>
                     <div className="col-md-6 col-sm-6 col-xs-12">
                         <div className="price-chart table-responsive">
                             
@@ -503,7 +500,7 @@ const Home = () => {
                     
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
         {/* <!-- End Price Chart Section --> */}
