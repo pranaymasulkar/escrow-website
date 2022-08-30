@@ -322,7 +322,18 @@ const Home = () => {
             </div>
         </section>
         {/* <!-- End  Feature Section --> */}
-        
+        <section style={{paddingTop: '75px'}}>
+            <div className="container">
+                <div className="row">
+                    <div className="float-left">
+                        <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-list-widget>
+                    </div>
+                    <div className="float-left">
+                        <coingecko-coin-compare-chart-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
+                    </div>
+                </div>
+            </div>
+        </section>
         {/* <!-- Start Testimonial Section --> */}
         <section id="parallax-contact" className="section-padding">
             <div className="container">
