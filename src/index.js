@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
+import './i18n';
 
+import * as serviceWorker from './serviceWorker';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <App />
+    <Suspense fallback={(<div>Loading</div>)}>
+        <App />
+    </Suspense>
     </Router>
   </React.StrictMode>
 );
