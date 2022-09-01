@@ -23,7 +23,7 @@ import IconAwardsWon from "../assets/img/award.png";
 import Icondolar from "../assets/img/dolar-transparent.png";
 import IconHvamBit from "../assets/img/logoicon.png";
 import tiktoky from "../assets/img/tiktiky.png";
-
+import { useTranslation } from 'react-i18next';
 const Home = () => {
     const [hvmcount, setHvmcount] = useState(1);
     // const [hvmtotal, setHvmtotal] = useState(0.53);
@@ -32,6 +32,7 @@ const Home = () => {
         setHvmcount(event.target.value);
         // setHvmtotal((event.target.value * 0.53).toFixed(2));
       };
+      const { t } = useTranslation();
   return (
     <>
         <Header/>
@@ -45,8 +46,8 @@ const Home = () => {
             <div className="hero-container container">
                 <div className="hero-content">
                     <div className="col-sm-12 m-auto text-center white fadeHero">
-                        <h6 className="subheading">Welcome to</h6>
-                        <h1 className="h1-lg mb10 text-uppercase">HVAMBIT</h1>
+                        <h6 className="subheading">Welcome to </h6>
+                        <h1 className="h1-lg mb10 text-uppercase">HVAMBIT {t('Thanks.1')}</h1>
                         <ul className="list-inline banner-info">
                             <li><span>4.8 </span> Million
                                 <br/>Transactions</li>
