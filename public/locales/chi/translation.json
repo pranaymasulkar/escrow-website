@@ -2,6 +2,17 @@
   "Thanks": {
       "1": "感谢您"
   },
+  "HeaderMenu": {
+    "HOME": "感谢您",
+    "ESCROW": "感谢您",
+    "SWAPPING": "感谢您",
+    "SOON": "感谢您",
+    "WHITEPAPER": "感谢您",
+    "ROADMAP": "感谢您",
+    "TWITTER": "感谢您",
+    "REGISTER": "感谢您",
+    "LOGIN": "感谢您"
+},
   "Why": {
       "1": "收看此视频"
   }

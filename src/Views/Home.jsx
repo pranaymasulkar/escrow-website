@@ -46,8 +46,8 @@ const Home = () => {
             <div className="hero-container container">
                 <div className="hero-content">
                     <div className="col-sm-12 m-auto text-center white fadeHero">
-                        <h6 className="subheading">Welcome to </h6>
-                        <h1 className="h1-lg mb10 text-uppercase">HVAMBIT {t('Thanks.1')}</h1>
+                        <h6 className="subheading">{t('HeroSection.Hero_Title')}</h6>
+                        <h1 className="h1-lg mb10 text-uppercase">{t('HeroSection.Hero_Title_Main')}</h1>
                         <ul className="list-inline banner-info">
                             <li><span>4.8 </span> Million
                                 <br/>Transactions</li>
@@ -56,9 +56,10 @@ const Home = () => {
                             <li><span>92 </span> Percent
                                 <br/>Satisfaction rate</li>
                         </ul>
-                        <h5 className="lead h5-md mt30 mb20">A New Vision of Banking Services backed by Blockchain.  
-                        <br/>Make your trade easier with HVAMBIT.</h5>
-                        <a href="https://escrow.hvambit.com/register" className="btn btn-hero">Join Now</a>
+                        <h5 className="lead h5-md mt30 mb20">  
+                        {t('HeroSection.Hero_SubTitle1')}
+                        <br/>{t('HeroSection.Hero_SubTitle2')}</h5>
+                        <a href="https://escrow.hvambit.com/register" className="btn btn-hero">{t('HeroSection.Hero_Btn')}</a>
                     </div>
                 </div>
             </div>
@@ -69,9 +70,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="heading m-auto text-center ">
-                            <h2 className="f-xbold">Let HVAM make your trade easier than before.</h2>
+                            <h2 className="f-xbold">{t('ServicesSection.Services_Title')}</h2>
                             <hr className="seperator"/>
-                            <p>Buy, sell, swap and access unique services - all from a single platform.</p>
+                            <p>{t('ServicesSection.Services_SubTitle')}</p>
                         </div>
                     </div>
                 </div>
@@ -83,10 +84,8 @@ const Home = () => {
                                 <img src={IconCreateEscow} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
-                                {/* <!--<h4>2. <span>FUND ESCROW</span></h4>--> */}
-                                <h4>CREATE <span>ESCROW</span></h4>
-                                <p>Create an escrow account by providing your transaction details and send an escrow payment request to seller.</p>
-                                {/* <a href="#" className="read-more">Read More</a> */}
+                                <h4>{t('ServicesSection.Card_One_Title1')} <span>{t('ServicesSection.Card_One_Title2')}</span></h4>
+                                <p>{t('ServicesSection.Card_One_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -96,9 +95,8 @@ const Home = () => {
                                 <img src={Iconfundescrow} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
-                                <h4>FUND <span>ESCROW</span></h4>
-                                <p>Buyer transfers payment to HVAM escrow account for safekeeping until the conditions are met and service is delivered.</p>
-                                {/* <a href="#" className="read-more">Read More</a> */}
+                                <h4>{t('ServicesSection.Card_Two_Title1')} <span>{t('ServicesSection.Card_Two_Title2')}</span></h4>
+                                <p>{t('ServicesSection.Card_Two_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -107,10 +105,9 @@ const Home = () => {
                             <div className="icon-box service-icon icon-lg imgebox">
                                 <img src={Iconverify} alt="" className="img-responsive imageres m-auto"/>
                             </div>
-                            <div className="service-inner ">
-                                <h4>VERIFIES <span>DOCUMENTS</span></h4>
-                                <p>Seller to provide proof of deliveries and HVAM to verifies each parties’ documents.</p>
-                                {/* <a href="#" className="read-more">Read More</a> */}
+                            <div className="service-inner">
+                                <h4>{t('ServicesSection.Card_Three_Title1')} <span>{t('ServicesSection.Card_Three_Title2')}</span></h4>
+                                <p>{t('ServicesSection.Card_Three_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -120,9 +117,8 @@ const Home = () => {
                                 <img src={Icondeliveryconfirmation} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
-                                <h4>DELIVERY <span>CONFIRMATION</span></h4>
-                                <p>The buyer now has a specific inspection period to verify the product before the acceptance or rejection.</p>
-                                {/* <a href="#" className="read-more">Read More</a> */}
+                                <h4>{t('ServicesSection.Card_Four_Title1')} <span>{t('ServicesSection.Card_Four_Title2')}</span></h4>
+                                <p>{t('ServicesSection.Card_Four_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -132,9 +128,8 @@ const Home = () => {
                                 <img src={Iconreleasefund} alt="" className="img-responsive imageres m-auto"/>
                             </div>
                             <div className="service-inner">
-                                <h4>RELEASE <span>FUNDS</span></h4>
-                                <p>If the product meets the specifications and conditions agreed upon, HVAM may now release the funds to the seller accordingly.</p>
-                                {/* <a href="#" className="read-more">Read More</a> */}
+                                <h4>{t('ServicesSection.Card_Five_Title1')} <span>{t('ServicesSection.Card_Five_Title2')}</span></h4>
+                                <p>{t('ServicesSection.Card_Five_SubTitle')}</p>
                             </div>
                         </div>
                     </div>	
@@ -150,19 +145,18 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-6 col-sm-6">
                         <div className="">
-                            <h5 className="subheading">ABOUT US</h5>
-                            <h3>Secure &amp; Easy way to trade</h3>
-                            <p>HVAMBIT offers its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals. </p>
+                            <h5 className="subheading">{t('AboutSection.About_Title')}</h5>
+                            <h3>{t('AboutSection.About_Title_Main')}</h3>
+                            <p>{t('AboutSection.About_SubTitle1')}</p>
                             <ul className="about-info-list">
-                                <li><i className="icon ion-checkmark"></i>User’s information and financial security.</li>
-                                <li><i className="icon ion-checkmark"></i>Confidentiality</li>
-                                <li><i className="icon ion-checkmark"></i>Trouble-free</li>
-                                <li><i className="icon ion-checkmark"></i>Cost-effective</li>
-                                <li><i className="icon ion-checkmark"></i>Trusted Worldwide</li>
-                                <li><i className="icon ion-checkmark"></i>Clear Navigation</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item1')}</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item2')}</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item3')}</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item4')}</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item5')}</li>
+                                <li><i className="icon ion-checkmark"></i>{t('AboutSection.About_Item6')}</li>
                             </ul>
-                            
-                            <a href="https://escrow.hvambit.com/register" className="btn btn-black ">Join Now</a>
+                            <a href="https://escrow.hvambit.com/register" className="btn btn-black ">{t('AboutSection.About_Btn')}</a>
                         </div>
                     </div>
                 </div>
@@ -175,9 +169,9 @@ const Home = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="heading m-auto text-center ">
-                                <h2 className="f-xbold">HOW OUR SYSTEM WORKS?</h2>
+                                <h2 className="f-xbold">{t('HowWorkSection.HowWork_Title')}</h2>
                                 <hr className="seperator"/>
-                                <p>Companies can also benefit from HVAM based trading by importing and exporting their assets in a business wallet. Follow the steps</p>
+                                <p>{t('HowWorkSection.HowWork_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -194,8 +188,8 @@ const Home = () => {
                                         <div className="icon-box work-icon icon-lg imgebox">
                                             <img src={IconRegistration} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
-                                        <h4>1. Registration</h4>
-                                        <p>Sign up now to discover our exclusive benefits.</p>
+                                        <h4>{t('HowWorkSection.HCard_One_Title')}</h4>
+                                        <p>{t('HowWorkSection.hCard_One_SubTitle')}</p>
                                     </div>
                                 </div>
 
@@ -204,8 +198,8 @@ const Home = () => {
                                         <div className="icon-box work-icon icon-lg imgebox">
                                             <img src={Iconincrease} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
-                                        <h4>2. Increase your balance</h4>
-                                        <p>Profit increases by increasing your balance.</p>
+                                        <h4>{t('HowWorkSection.HCard_Two_Title')}</h4>
+                                        <p>{t('HowWorkSection.hCard_Two_SubTitle')}</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3 col-sm-3">
@@ -213,8 +207,8 @@ const Home = () => {
                                         <div className="icon-box work-icon icon-lg imgebox">
                                             <img src={Iconsafeandsecure} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
-                                        <h4>3. Save your money and transaction</h4>
-                                        <p>Wait for your profit to increase.</p>
+                                        <h4>{t('HowWorkSection.HCard_Three_Title')}</h4>
+                                        <p>{t('HowWorkSection.hCard_Three_SubTitle')}</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3 col-sm-3">
@@ -222,8 +216,8 @@ const Home = () => {
                                         <div className="icon-box work-icon icon-lg imgebox">
                                             <img src={Iconquicktransfer} alt="" className="img-responsive imageres m-auto"/>
                                         </div>
-                                        <h4>4. Quick transfer</h4>
-                                        <p>Do your commercial transfer safe, fast, and cost-effective.</p>
+                                        <h4>{t('HowWorkSection.HCard_Four_Title')}</h4>
+                                        <p>{t('HowWorkSection.hCard_Four_SubTitle')}</p>
                                     </div>
                                 </div>	
                             </div>
@@ -237,9 +231,9 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="heading m-auto text-center ">
-                        <h2 className="f-xbold">WHY CHOOSE HVAM</h2>
+                        <h2 className="f-xbold">{t('FeaturesSection.Featu_Title')}</h2>
                         <hr className="seperator"/>
-                        <p>Our project grasps one of the problems in overall marketplace; “trust”. Developing decentralized applications and escrow services can guarantee the security of users’ assets and satisfaction. Our upmost scheme is to provide safe trading industry between parties.</p>
+                        <p>{t('FeaturesSection.Featu_SubTitle')}</p>
                     </div>
                 </div>
                 <div className="row mb50">
@@ -249,8 +243,8 @@ const Home = () => {
                                 <img src={Iconsafeandsecure} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Safe and secure</h4>
-                                <p>Safe trading platform is the upmost goal of HVAMBIT. Personal and financial information will be secured.</p>
+                                <h4>{t('FeaturesSection.fCard_One_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_One_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -260,8 +254,8 @@ const Home = () => {
                                 <img src={Iconmakepayment} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Make Payment</h4>
-                                <p>Easily and securely make payment for the goods/service you desire.</p>
+                                <h4>{t('FeaturesSection.fCard_Two_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_Two_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -271,8 +265,8 @@ const Home = () => {
                                 <img src={Iconsecurewallet} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Secure Wallet</h4>
-                                <p>Store all your digital assets securely.</p>
+                                <h4>{t('FeaturesSection.fCard_Three_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_Three_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -284,8 +278,8 @@ const Home = () => {
                                 <img src={Iconavailability} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Higher Availibilty</h4>
-                                <p>High level of operational performance.</p>
+                                <h4>{t('FeaturesSection.fCard_Four_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_Four_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -295,8 +289,8 @@ const Home = () => {
                                 <img src={Iconrecurring} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Recurring Buying</h4>
-                                <p>Set-up how you want to purchase the cryptocurrency you like.</p>
+                                <h4>{t('FeaturesSection.fCard_Five_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_Five_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -306,8 +300,8 @@ const Home = () => {
                                 <img src={Iconchange} alt="" className="img-responsive"/>
                             </div>
                             <div className="feature-inner">
-                                <h4>Instant Exchnage</h4>
-                                <p>Exchange any cryptocurrency faster, simpler, and in secure way.</p>
+                                <h4>{t('FeaturesSection.fCard_Six_Title')}</h4>
+                                <p>{t('FeaturesSection.fCard_Six_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
@@ -320,8 +314,8 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12 col-sm-12 ">
                         <div className="clients text-center">
-                            <h3>HVAM Rate</h3>
-                            <p>1 HVAM = 0.53 USD</p>
+                            <h3>{t('RateSection.Rate_Title')}</h3>
+                            <p>{t('RateSection.Rate_Hvam')}</p>
                         </div>
                     </div>
                 </div>
@@ -333,7 +327,7 @@ const Home = () => {
                         <div className="priceformsec">
                             <img src={IconHvamBit} alt="" className="img-responsive weblogoimg"/>
                             <div>
-                                <h4>HVAM</h4>
+                                <h4>{t('RateSection.Rate_Hvam')}</h4>
                                 <input className="form-control" placeholder="1" aria-label="1"
                                     type="text"
                                     id="hvmcount"    
@@ -348,7 +342,7 @@ const Home = () => {
                         <div className="priceformsec">
                             <img src={Icondolar} alt="" className="img-responsive logoimg"/>
                             <div>
-                                <h4>USD</h4>
+                                <h4>{t('RateSection.Rate_Curruncy')}</h4>
                                 <h1>{!hvmcount ? 0.53 : (hvmcount * 0.53).toFixed(2)}<span style={{fontSize: '16px'}}>USD</span></h1>
                             </div>
                         </div>
@@ -356,7 +350,7 @@ const Home = () => {
                     <div className="col-md-2 col-sm-12 col-12">
                     </div>	
                     <div className="col-md-12 col-sm-12 col-12 text-center">
-                        <a href="https://escrow.hvambit.com/" className="btn btn-black buybtn">Buy HVAM</a>
+                        <a href="https://escrow.hvambit.com/" className="btn btn-black buybtn">{t('RateSection.Rate_Btn')}</a>
                     </div>			
                 </div>
             </div>
@@ -367,9 +361,9 @@ const Home = () => {
                 <div className="container">
                 <div className="col-sm-8 text-center m-auto pt100 pb100 border-top">
                     <div className="white text-center parallax-info">
-                        <h4 className="mb10 lspacing">Give Us A Call</h4>
+                        <h4 className="mb10 lspacing">{t('CallSection.Call_Title')}</h4>
                         <h1>+44 7488 8808 02</h1>
-                        <p>Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom<br/> Info@hvambit.com</p>
+                        <p>{t('CallSection.Call_SubTitle')}<br/> Info@hvambit.com</p>
 
                         <ul className="social-icons fadeIn">
                             <li><a href="https://www.facebook.com/hvamcoins"><i className="fa fa-facebook white"></i></a></li>
@@ -391,9 +385,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="heading m-auto text-center ">
-                            <h2 className="f-xbold">Updated Price Rate</h2>
+                            <h2 className="f-xbold">{t('TableSection.Table_SubTitle')}</h2>
                             <hr className="seperator"/>
-                            <p>Markets Overview</p>
+                            <p>{t('TableSection.Table_SubTitle')}</p>
                         </div>
                     </div>
                 </div>
@@ -416,8 +410,8 @@ const Home = () => {
                             <div className="imgebox">
                                 <img src={IconProjectComplete} alt="" className="img-responsive imageres"/>
                             </div>
-                            <h3>project complete</h3>
-                            <h2 className="counter-num">1200</h2>
+                            <h3>{t('CounterSection.Counter_One_Title')}</h3>
+                            <h2 className="counter-num">{t('CounterSection.Counter_One_Number')}</h2>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -425,9 +419,8 @@ const Home = () => {
                             <div className="imgebox">
                                 <img src={IconHappyClients} alt="" className="img-responsive imageres"/>
                             </div>
-                            <h3>Happy Clients</h3>
-                            <h2 className="counter-num">1000</h2>
-
+                            <h3>{t('CounterSection.Counter_Two_Title')}</h3>
+                            <h2 className="counter-num">{t('CounterSection.Counter_Two_Number')}</h2>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -435,8 +428,8 @@ const Home = () => {
                             <div className="imgebox">
                                 <img src={IconLineOfWork} alt="" className="img-responsive imageres"/>
                             </div>
-                            <h3>Line of Work</h3>
-                            <h2 className="counter-num">56090</h2>
+                            <h3>{t('CounterSection.Counter_Three_Title')}</h3>
+                            <h2 className="counter-num">{t('CounterSection.Counter_Three_Number')}</h2>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -444,8 +437,8 @@ const Home = () => {
                             <div className="imgebox">
                                 <img src={IconAwardsWon} alt="" className="img-responsive imageres"/>
                             </div>
-                            <h3>Awards won</h3>
-                            <h2 className="counter-num">31</h2>
+                            <h3>{t('CounterSection.Counter_Four_Title')}</h3>
+                            <h2 className="counter-num">{t('CounterSection.Counter_Four_Number')}</h2>
                         </div>
                     </div>
                 </div>
