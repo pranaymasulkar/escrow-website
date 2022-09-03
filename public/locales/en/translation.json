@@ -122,17 +122,68 @@
         "Counter_Two_Title": "Happy Clients",
         "Counter_Two_Number": "1000",
 
-        "Counter_Four_Title": "Line Of Work",
-        "Counter_Four_Number": "56090",
-
-        "Counter_Five_Title": "31"
+        "Counter_Three_Title": "Line Of Work",
+        "Counter_Three_Number": "56090",
+        
+        "Counter_Four_Title": "Awards Won",
+        "Counter_Four_Number": "31"
     },
 
-    "Thanks": {
-        "1": "Thank You"
+    "BlogSection": {
+        "Blog_Title": "Recent Blog Update",
+        "Blog_SubTitle": "Latest article from HVAMBIT."
     },
 
-    "Why": {
-        "1": "For watching this video"
+    "FaqSection": {
+        "Faq_Title": "Have any Question on Mind ?",
+        "Faq_SubTitle": "Frequently Asked Questions.",
+
+        "Faq_One_Title": "What Is HVAMBIT?",
+        "Faq_One_SubTitle": "HVAMBIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.",
+
+        "Faq_Two_Title": "How Does It Work?",
+        "Faq_Two_SubTitle": "First and foremost, you must create an account, verify it by confirming your email and provide the HVAM receiving wallet address. Next, increase your balance and do your commercial transfer safe, fast, and cost-effective.",
+
+        "Faq_Three_Title": "How Can I Register?",
+        "Faq_Three_SubTitle": " to sign-up.",
+
+        "Faq_Five_Title": "What HVAM Can Offer?",
+        "Faq_Five_SubTitle": "HVAM wallet, NFT platform, Escrow service, Swapping, and more. Aside from that, you can guarantee the security, reliability, and cost-effectiveness with HVAM. Click here to know more about us.",
+
+        "Faq_Six_Title": "How Can I Get The HVAM Receiving Wallet Address?",
+        "Faq_Six_SubTitle": " and watch the video below for the step-by-step instructions.",
+
+        "Faq_Seven_Title": "What Is HVAM Escrow?",
+        "Faq_Seven_SubTitle": "HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed.",
+
+        "Faq_Eight_Title": "What Is HVAM Wallet?",
+        "Faq_Eight_SubTitle": "Where you can store all your assets in one place. We developed our own wallet for you to store your cryptos and NFTs securely, initiate sending, receiving, exchange tokens, access our NFT Marketplace and payments. HVAM wallet employs a number of security mechanisms (secret phrase) to protect client’s assets against hacking or fraud and equips you with a user login and everything you need to manage your digital assets. It will be available for IOS and Android.",
+
+        "Faq_Nine_Title": "Is It Safe To Pay Using My Financial Card?",
+        "Faq_Nine_SubTitle": "Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, click here.",
+
+        "Faq_Ten_Title": "Where Can I Read The Whitepaper?",
+        "Faq_Ten_SubTitle": "You can find whitepaper in HVAM homepage or by clicking.",
+
+        "Faq_Eleone_Title": "How Can I View The Roadmap?",
+        "Faq_Eleone_SubTitle": " to view the roadmap."
+    },
+
+    "Footer": {
+        "Foot_Title1": "We Accept",
+        "Foot_Title2": "Stay Up To Date",
+        "Foot_Title3": "HVAMBIT",
+        "Foot_Title4": "Contact Us",
+        "Foot_SubTitle": "You can unsubscribe at any time",
+
+        "Foot_Url1": "ADD HVAM",
+        "Foot_Url2": "Roadmap",
+        "Foot_Url3": "Markets",
+        "Foot_Url4": "Whitepaper",
+        "Foot_Url5": "Certificate",
+
+        "Foot_Address": "Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX",
+        "Foot_Copyright1": "Copyright ©",
+        "Foot_Copyright2": "UK by High-Value Asset Management. All Rights Reserved."
     }
 }

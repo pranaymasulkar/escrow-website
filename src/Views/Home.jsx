@@ -450,9 +450,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="m-auto text-center ">
-                            <h2 className="f-xbold">Recent blog update</h2>
+                            <h2 className="f-xbold">{t('BlogSection.Blog_Title')}</h2>
                             <hr className="seperator"/>
-                            <p>Latest article from HVAMBIT.</p>
+                            <p>{t('BlogSection.Blog_SubTitle')}</p>
                         </div>
                     </div>
                 </div>
@@ -552,8 +552,8 @@ const Home = () => {
             <div className="row">
                     <div className="col-md-12">
                         <div className="heading m-auto text-center ">
-                            <h5 className="subheading">Have any Question on Mind ?</h5>
-                            <h2 className="f-xbold">Frequently Asked Questions</h2>
+                            <h5 className="subheading">{t('FaqSection.Faq_Title')}</h5>
+                            <h2 className="f-xbold">{t('FaqSection.Faq_SubTitle')}</h2>
                             <hr className="seperator"/>
                         </div>
                     </div>
@@ -567,58 +567,55 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingOne">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is HVAMBIT?
+                                            {t('FaqSection.Faq_One_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseOne" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div className="panel-body">
-                                        <p>HVAMBIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.</p>
+                                        <p>{t('FaqSection.Faq_One_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingTwo">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How does it work?
+                                            {t('FaqSection.Faq_Two_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                     <div className="panel-body">
-                                        <p>First and foremost, you must create an account, verify it by confirming your email and provide the HVAM receiving wallet address. Next, increase your balance and do your commercial transfer safe, fast, and cost-effective. </p>
+                                        <p>{t('FaqSection.Faq_Two_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingThree">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            How can I register?
+                                            {t('FaqSection.Faq_Three_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div className="panel-body">
-                                        <p>Click <a href="https://escrow.hvambit.com/register">here</a> to sign-up.</p>
+                                        <p><a href="https://escrow.hvambit.com/register">Click here</a>{t('FaqSection.Faq_Three_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingFour">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            What HVAM can offer?
+                                            {t('FaqSection.Faq_Five_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseFour" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                     <div className="panel-body">
-                                        <p>HVAM wallet, NFT platform, Escrow service, Swapping, and more. Aside from that, you can guarantee the security, reliability, and cost-effectiveness with HVAM. Click here to know more about us.</p>
+                                        <p>{t('FaqSection.Faq_Five_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -626,13 +623,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingFive">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How can I get the HVAM receiving wallet address?
+                                            {t('FaqSection.Faq_Six_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseFive" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                     <div className="panel-body">
-                                        <p>Click <a href="#">here</a> and watch the video below for the step-by-step instructions.</p>
+                                        <p><a href="#">Click here</a>{t('FaqSection.Faq_Six_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -640,13 +637,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingSix">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            What is HVAM escrow?
+                                            {t('FaqSection.Faq_Seven_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseSix" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                     <div className="panel-body">
-                                        <p>HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed.</p>
+                                        <p>{t('FaqSection.Faq_Seven_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -654,13 +651,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingSeven">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                            What is HVAM wallet?
+                                            {t('FaqSection.Faq_Eight_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseSeven" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                                     <div className="panel-body">
-                                        <p>Where you can store all your assets in one place. We developed our own wallet for you to store your cryptos and NFTs securely, initiate sending, receiving, exchange tokens, access our NFT Marketplace and payments. HVAM wallet employs a number of security mechanisms (secret phrase) to protect client’s assets against hacking or fraud and equips you with a user login and everything you need to manage your digital assets. It will be available for IOS and Android.</p>
+                                        <p>{t('FaqSection.Faq_Eight_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -668,13 +665,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingEight">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            Is it safe to pay using my financial card?
+                                            {t('FaqSection.Faq_Nine_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseEight" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                     <div className="panel-body">
-                                        <p>Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, <a href="#">click here.</a></p>
+                                        <p>{t('FaqSection.Faq_Nine_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -682,13 +679,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingTen">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                            Where can I read the whitepaper?
+                                            {t('FaqSection.Faq_Ten_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseTen" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
                                     <div className="panel-body">
-                                        <p>You can find whitepaper in HVAM homepage or by clicking <a href="#">here</a>.</p>
+                                        <p>{t('FaqSection.Faq_Ten_SubTitle')}<a href="#">here</a>.</p>
                                     </div>
                                 </div>
                             </div>
@@ -696,13 +693,13 @@ const Home = () => {
                                 <div className="panel-heading" role="tab" id="headingEleven">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                            How can I view the roadmap?
+                                            {t('FaqSection.Faq_Eleone_Title')}
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseEleven" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
                                     <div className="panel-body">
-                                        <p>Click <a href="#">here</a> to view the roadmap.</p>
+                                        <p><a href="#">Click here</a>{t('FaqSection.Faq_Eleone_SubTitle')}</p>
                                     </div>
                                 </div>
                             </div>

@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-3 col-sm-4">
                         <div className="widget footer-widget">
-                            <h4>We accept</h4>
+                            <h4>{t('Footer.Foot_Title1')}</h4>
                             <ul className="list-inline coin-widget">
                                 <li><a href="#"><i className="fa  fa-cc-mastercard"></i></a></li>
                                 <li><a href="#"><i className="fa fa-cc-visa"></i></a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                 
                     <div className="col-md-4 col-sm-6">
                         <div className="widget news-widget">
-                            <h4>Stay up to date</h4>
+                            <h4>{t('Footer.Foot_Title2')}</h4>
                             
                             {/* <!-- Input Card --> */}
                             <div className="input-card mt-3">
@@ -39,33 +39,32 @@ const Footer = () => {
                             <input type="hidden" name="sys_lang_id" value="1"/>
                             <ul>
                                 <li><a href="#">&nbsp;</a></li>
-                                <li><a href="#">You can unsubscribe at any time</a></li>
+                                <li>You can unsubscribe at any time</li>
                             </ul>	
                         </div>
                     </div>
                     <div className="col-md-2 col-sm-6">
                         <div className="widget news-widget">
-                            <h4>HVAMBIT</h4>
+                            <h4>{t('Footer.Foot_Title3')}</h4>
                             
                             <ul>
-                                <li><a href="#">ADD HVAM</a></li>
-                                <li><a href="#">Roadmap</a></li>
-                                <li><a href="#">Markets</a></li>
-                                <li><a href="#">Whitepaper </a></li>
-                                <li><a href="#">Certificate </a></li>
-                                <li><a href="#">Terms & Conditions </a></li>
+                                <li><a href="#">{t('Footer.Foot_Url1')}</a></li>
+                                <li><a href="#">{t('Footer.Foot_Url2')}</a></li>
+                                <li><a href="#">{t('Footer.Foot_Url3')}</a></li>
+                                <li><a href="#">{t('Footer.Foot_Url4')}</a></li>
+                                <li><a href="#">{t('Footer.Foot_Url5')}</a></li>
+                                <li><a href="#">{t('Footer.Foot_Url6')}</a></li>
                             </ul>
                         </div>
                     </div>
                     
                     <div className="col-md-3 col-sm-6">
                         <div className="widget contact-widget">
-                            <h4>Contact Us</h4>
+                            <h4>{t('Footer.Foot_Title4')}</h4>
                             
                             <ul className="footer-contact">
-                                <li><i className="fa fa-map-marker"></i>Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX</li>
+                                <li><i className="fa fa-map-marker"></i>{t('Footer.Foot_Address')}</li>
                                 <li><i className="fa fa-phone"></i> <span>+44 7488 8808 02</span></li>
-                                {/* <li><i className="fa fa-phone"></i> <span>+97150 401 7415</span></li> */}
                                 <li><i className="fa fa-envelope-o"></i> <span>infor@hvambit.com</span></li>
                             </ul>
                             
@@ -82,7 +81,7 @@ const Footer = () => {
                 
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <p className="copy ">Copyright © <span>HVAMBIT</span> UK by High-Value Asset Management. All Rights Reserved.</p>
+                        <p className="copy ">{t('Footer.Foot_Copyright1')} <span>HVAMBIT</span> {t('Footer.Foot_Copyright2')}</p>
                             
                     </div>
                 </div>
