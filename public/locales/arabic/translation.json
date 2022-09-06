@@ -1,0 +1,189 @@
+{
+  "HeaderMenu": {
+    "HOME": "感谢您",
+    "ESCROW": "感谢您",
+    "SWAPPING": "感谢您",
+    "SOON": "感谢您",
+    "WHITEPAPER": "感谢您",
+    "ROADMAP": "感谢您",
+    "TWITTER": "感谢您",
+    "REGISTER": "感谢您",
+    "LOGIN": "感谢您"
+  },
+
+  "HeroSection": {
+      "Hero_Title": "مرحبًا بك في",
+      "Hero_Title_Main": "HVAMBIT",
+      "Hero_SubTitle1": "رؤية جديدة للخدمات المصرفية بدعم من Blockchain.",
+      "Hero_SubTitle2": "جعل تجارتك أسهل مع HVAMBIT.",
+      "Hero_Btn": "انضم الآن"
+  },
+
+  "ServicesSection": {
+      "Services_Title": "Let HVAM make your trade easier than before. ",
+      "Services_SubTitle": "Buy, sell, swap and access unique services - all from a single platform.",
+
+      "Card_One_Title1": "CREATE",
+      "Card_One_Title2": "ESCROW",
+      "Card_One_SubTitle": "Create an escrow account by providing your transaction details and send an escrow payment request to seller.",
+
+      "Card_Two_Title1": "FUND",
+      "Card_Two_Title2": "ESCROW",
+      "Card_Two_SubTitle": "Buyer transfers payment to HVAM escrow account for safekeeping until the conditions are met and service is delivered.",
+
+      "Card_Three_Title1": "VERIFIES",
+      "Card_Three_Title2": "DOCUMENTS",
+      "Card_Three_SubTitle": "Seller to provide proof of deliveries and HVAM to verifies each parties’ documents.",
+      
+      "Card_Four_Title1": "DELIVERY",
+      "Card_Four_Title2": "CONFIRMATION",
+      "Card_Four_SubTitle": "The buyer now has a specific inspection period to verify the product before the acceptance or rejection.",
+
+      "Card_Five_Title1": "RELEASE",
+      "Card_Five_Title2": "FUNDS",
+      "Card_Five_SubTitle": "If the product meets the specifications and conditions agreed upon, HVAM may now release the funds to the seller accordingly."
+  },
+
+  "AboutSection": {
+      "About_Title": "ABOUT US",
+      "About_Title_Main": "Secure & Easy Way To Trade",
+      "About_SubTitle1": "HVAMBIT offers its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.",
+      "About_Item1": "User’s information and financial security.",
+      "About_Item2": "Confidentiality.",
+      "About_Item3": "Trouble-free",
+      "About_Item4": "Cost-effective",
+      "About_Item5": "Trusted Worldwide",
+      "About_Item6": "Clear Navigation",
+      "About_Btn": "Join Now"
+  },
+
+  "HowWorkSection": {
+      "HowWork_Title": "HOW OUR SYSTEM WORKS?",
+      "HowWork_SubTitle": "Companies can also benefit from HVAM based trading by importing and exporting their assets in a business wallet. Follow the steps",
+      
+      "HCard_One_Title": "1. Registration",
+      "hCard_One_SubTitle": "Sign up now to discover our exclusive benefits",
+
+      "HCard_Two_Title": "2. Increase Your Balance",
+      "hCard_Two_SubTitle": "Profit increases by increasing your balance.",
+
+      "HCard_Three_Title": "3. Save Your Money And Transaction",
+      "hCard_Three_SubTitle": "Wait for your profit to increase.",
+      
+      "HCard_Four_Title": "4. Quick Transfer",
+      "hCard_Four_SubTitle": "Do your commercial transfer safe, fast, and cost-effective."
+  },
+
+  "FeaturesSection": {
+      "Featu_Title": "WHY CHOOSE HVAM",
+      "Featu_SubTitle": "Our project grasps one of the problems in overall marketplace; “trust”. Developing decentralized applications and escrow services can guarantee the security of users’ assets and satisfaction. Our upmost scheme is to provide safe trading industry between parties.",
+      
+      "fCard_One_Title": "Safe And Secure",
+      "fCard_One_SubTitle": "Safe trading platform is the upmost goal of HVAMBIT. Personal and financial information will be secured.",
+
+      "fCard_Two_Title": "Make Payment",
+      "fCard_Two_SubTitle": "Easily and securely make payment for the goods/service you desire.",
+
+      "fCard_Three_Title": "Secure Wallet",
+      "fCard_Three_SubTitle": "Store all your digital assets securely.",
+      
+      "fCard_Four_Title": "Higher Availibilty",
+      "fCard_Four_SubTitle": "High level of operational performance.",
+
+      "fCard_Five_Title": "Recurring Buying",
+      "fCard_Five_SubTitle": "Set-up how you want to purchase the cryptocurrency you like.",
+
+      "fCard_Six_Title": "Instant Exchnage",
+      "fCard_Six_SubTitle": "Exchange any cryptocurrency faster, simpler, and in secure way."
+  },
+
+  "RateSection": {
+      "Rate_Title": "HVAM Rate",
+      "Rate_SubTitle": "1 HVAM = 0.53 USD",
+      "Rate_Hvam": "HVAM",
+      "Rate_Curruncy": "USD",
+      "Rate_Btn": "Buy HVAM"
+  },
+
+  "CallSection": {
+      "Call_Title": "Give Us A Call",
+      "Call_SubTitle": "Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom"
+  },
+
+  "TableSection": {
+      "Table_Title": "Updated Price Rate",
+      "Table_SubTitle": "Markets Overview"
+  },
+
+  "CounterSection": {
+      "Counter_One_Title": "project complete",
+      "Counter_One_Number": "1200",
+
+      "Counter_Two_Title": "Happy Clients",
+      "Counter_Two_Number": "1000",
+
+      "Counter_Three_Title": "Line Of Work",
+      "Counter_Three_Number": "56090",
+      
+      "Counter_Four_Title": "Awards Won",
+      "Counter_Four_Number": "31"
+  },
+
+  "BlogSection": {
+      "Blog_Title": "Recent Blog Update",
+      "Blog_SubTitle": "Latest article from HVAMBIT."
+  },
+
+  "FaqSection": {
+      "Faq_Title": "Have any Question on Mind ?",
+      "Faq_SubTitle": "Frequently Asked Questions.",
+
+      "Faq_One_Title": "What Is HVAMBIT?",
+      "Faq_One_SubTitle": "HVAMBIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.",
+
+      "Faq_Two_Title": "How Does It Work?",
+      "Faq_Two_SubTitle": "First and foremost, you must create an account, verify it by confirming your email and provide the HVAM receiving wallet address. Next, increase your balance and do your commercial transfer safe, fast, and cost-effective.",
+
+      "Faq_Three_Title": "How Can I Register?",
+      "Faq_Three_SubTitle": " to sign-up.",
+
+      "Faq_Five_Title": "What HVAM Can Offer?",
+      "Faq_Five_SubTitle": "HVAM wallet, NFT platform, Escrow service, Swapping, and more. Aside from that, you can guarantee the security, reliability, and cost-effectiveness with HVAM. Click here to know more about us.",
+
+      "Faq_Six_Title": "How Can I Get The HVAM Receiving Wallet Address?",
+      "Faq_Six_SubTitle": " and watch the video below for the step-by-step instructions.",
+
+      "Faq_Seven_Title": "What Is HVAM Escrow?",
+      "Faq_Seven_SubTitle": "HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed.",
+
+      "Faq_Eight_Title": "What Is HVAM Wallet?",
+      "Faq_Eight_SubTitle": "Where you can store all your assets in one place. We developed our own wallet for you to store your cryptos and NFTs securely, initiate sending, receiving, exchange tokens, access our NFT Marketplace and payments. HVAM wallet employs a number of security mechanisms (secret phrase) to protect client’s assets against hacking or fraud and equips you with a user login and everything you need to manage your digital assets. It will be available for IOS and Android.",
+
+      "Faq_Nine_Title": "Is It Safe To Pay Using My Financial Card?",
+      "Faq_Nine_SubTitle": "Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, click here.",
+
+      "Faq_Ten_Title": "Where Can I Read The Whitepaper?",
+      "Faq_Ten_SubTitle": "You can find whitepaper in HVAM homepage or by clicking.",
+
+      "Faq_Eleone_Title": "How Can I View The Roadmap?",
+      "Faq_Eleone_SubTitle": " to view the roadmap."
+  },
+
+  "Footer": {
+      "Foot_Title1": "We Accept",
+      "Foot_Title2": "Stay Up To Date",
+      "Foot_Title3": "HVAMBIT",
+      "Foot_Title4": "Contact Us",
+      "Foot_SubTitle": "You can unsubscribe at any time",
+
+      "Foot_Url1": "ADD HVAM",
+      "Foot_Url2": "Roadmap",
+      "Foot_Url3": "Markets",
+      "Foot_Url4": "Whitepaper",
+      "Foot_Url5": "Certificate",
+
+      "Foot_Address": "Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX",
+      "Foot_Copyright1": "Copyright ©",
+      "Foot_Copyright2": "UK by High-Value Asset Management. All Rights Reserved."
+  }
+}

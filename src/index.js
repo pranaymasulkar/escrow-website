@@ -10,7 +10,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-    <Suspense fallback={(<div>Loading</div>)}>
+    <Suspense fallback={(
+      <div className="loader-container">
+      <div className="spinner"></div>
+    </div>
+
+    )}>
         <App />
     </Suspense>
     </Router>

@@ -1,8 +1,14 @@
 import React from 'react'
 import { NavLink, Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import { BsGlobe2 } from "react-icons/bs";
+import i18next from 'i18next';
+
 const Header = () => {
     const { t } = useTranslation();
+    function handleClick(lang) {
+        i18next.changeLanguage(lang)
+    }
   return (
     <>
         <nav className="navbar navbar-default transparent-white navbar-fixed-top">
@@ -53,6 +59,19 @@ const Header = () => {
                         <li className="quote">
                             <a href="https://escrow.hvambit.com">{t('HeaderMenu.LOGIN')}</a>
                         </li>	
+                        <li className="dropdown">
+                            <a href="#" className="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <BsGlobe2 size={20} /> <span className="caret"></span>
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <a onClick={()=>handleClick('en')} href="#">English</a>
+                                </li>
+                                <li>
+                                    <a onClick={()=>handleClick('arabic')} href="#">arabic</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
