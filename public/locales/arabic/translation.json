@@ -1,189 +1,189 @@
 {
-  "HeaderMenu": {
-    "HOME": "感谢您",
-    "ESCROW": "感谢您",
-    "SWAPPING": "感谢您",
-    "SOON": "感谢您",
-    "WHITEPAPER": "感谢您",
-    "ROADMAP": "感谢您",
-    "TWITTER": "感谢您",
-    "REGISTER": "感谢您",
-    "LOGIN": "感谢您"
-  },
+    "HeaderMenu": {
+        "HOME": "HOME",
+        "ESCROW": "ESCROW",
+        "SWAPPING": "SWAPPING",
+        "SOON": "SOON",
+        "WHITEPAPER": "WHITEPAPER",
+        "ROADMAP": "ROADMAP",
+        "TWITTER": "TWITTER",
+        "REGISTER": "REGISTER",
+        "LOGIN": "LOGIN"
+    },
 
-  "HeroSection": {
-      "Hero_Title": "مرحبًا بك في",
-      "Hero_Title_Main": "HVAMBIT",
-      "Hero_SubTitle1": "رؤية جديدة للخدمات المصرفية بدعم من Blockchain.",
-      "Hero_SubTitle2": "جعل تجارتك أسهل مع HVAMBIT.",
-      "Hero_Btn": "انضم الآن"
-  },
+    "HeroSection": {
+        "Hero_Title": "Welcome to",
+        "Hero_Title_Main": "HVAMBIT",
+        "Hero_SubTitle1": ".Blockchain رؤية جديدة للخدمات المصرفية بدعم من",
+        "Hero_SubTitle2": ".HVAMBIT اجعل تجارتك أسهل مع",
+        "Hero_Btn": "نضم الان"
+    },
 
-  "ServicesSection": {
-      "Services_Title": "Let HVAM make your trade easier than before. ",
-      "Services_SubTitle": "Buy, sell, swap and access unique services - all from a single platform.",
+    "ServicesSection": {
+        "Services_Title": ".دع منصتنا تجعل تجارتك أسهل من ذي قبل",
+        "Services_SubTitle": ".قم بالشراء والبيع والتبديل والوصول إلى خدمات فريدة - كل ذلك من منصة واحدة",
 
-      "Card_One_Title1": "CREATE",
-      "Card_One_Title2": "ESCROW",
-      "Card_One_SubTitle": "Create an escrow account by providing your transaction details and send an escrow payment request to seller.",
+        "Card_One_Title1": "إنشاء",
+        "Card_One_Title2": "حساب الضمان",
+        "Card_One_SubTitle": "إنشاء حساب الضمان - قم بإنشاء حساب ضمان من خلال تقديم تفاصيل المعاملة الخاصة بك وإرسال طلب دفع الضمان إلى البائع.",
 
-      "Card_Two_Title1": "FUND",
-      "Card_Two_Title2": "ESCROW",
-      "Card_Two_SubTitle": "Buyer transfers payment to HVAM escrow account for safekeeping until the conditions are met and service is delivered.",
+        "Card_Two_Title1": "الأموال",
+        "Card_Two_Title2": "حساب الضمان",
+        "Card_Two_SubTitle": ".يقوم المشتري بتحويل المدفوعات إلى حساب الضمان في بلوكتشين لحفظها حتى يتم استيفاء الشروط وتقديم الخدمة",
 
-      "Card_Three_Title1": "VERIFIES",
-      "Card_Three_Title2": "DOCUMENTS",
-      "Card_Three_SubTitle": "Seller to provide proof of deliveries and HVAM to verifies each parties’ documents.",
-      
-      "Card_Four_Title1": "DELIVERY",
-      "Card_Four_Title2": "CONFIRMATION",
-      "Card_Four_SubTitle": "The buyer now has a specific inspection period to verify the product before the acceptance or rejection.",
+        "Card_Three_Title1": "مستندات",
+        "Card_Three_Title2": "التحقق",
+        "Card_Three_SubTitle": "مستندات التحقق - يجب على البائع تقديم دليل على عمليات التسليم و للتحقق من مستندات كل طرف",
+        
+        "Card_Four_Title1": "تأكيد",
+        "Card_Four_Title2": "التسليم",
+        "Card_Four_SubTitle": ".تأكيد التسليم - لدى المشتري الآن فترة فحص محددة للتحقق من المنتج قبل القبول أو الرفض",
 
-      "Card_Five_Title1": "RELEASE",
-      "Card_Five_Title2": "FUNDS",
-      "Card_Five_SubTitle": "If the product meets the specifications and conditions agreed upon, HVAM may now release the funds to the seller accordingly."
-  },
+        "Card_Five_Title1": "تحرير",
+        "Card_Five_Title2": "الأموال",
+        "Card_Five_SubTitle": "تحرير الأموال - إذا كان المنتج يفي بالمواصفات والشروط المتفق عليها ، فقد تقوم شركة الآن بتحرير الأموال إلى البائع وفقًا لذلك."
+    },
 
-  "AboutSection": {
-      "About_Title": "ABOUT US",
-      "About_Title_Main": "Secure & Easy Way To Trade",
-      "About_SubTitle1": "HVAMBIT offers its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.",
-      "About_Item1": "User’s information and financial security.",
-      "About_Item2": "Confidentiality.",
-      "About_Item3": "Trouble-free",
-      "About_Item4": "Cost-effective",
-      "About_Item5": "Trusted Worldwide",
-      "About_Item6": "Clear Navigation",
-      "About_Btn": "Join Now"
-  },
+    "AboutSection": {
+        "About_Title": "معلومات عنا",
+        "About_Title_Main": "طريقة آمنة وسهلة للتداول",
+        "About_SubTitle1": "تقدم المنصة للمشاركين مزايا ومزايا متعددة مثل محفظة التشفير الخاصة لاستكشاف بلوكتشين  والتداول والمبادلة ومنصة NFT وخدمات ضمان الدفع المشفرة - كل ذلك من منصة واحدة. يتمثل أحد أغراضنا في استبدال الأدوات المالية الكلاسيكية (LC.DLC.SBLC) بأداة مالية قائمة على العملة المشفرة لجعل حركة التداول أسهل وأكثر أمانًا بين الشركات والأفراد.",
+        "About_Item1": "معلومات المستخدم والأمن المالي",
+        "About_Item2": "سرية",
+        "About_Item3": "خالية من المتاعب",
+        "About_Item4": "فعاله من حيث التكلفه",
+        "About_Item5": ".موثوق في جميع أنحاء العالم",
+        "About_Item6": "مسح التنقل",
+        "About_Btn": "Join Now"
+    },
 
-  "HowWorkSection": {
-      "HowWork_Title": "HOW OUR SYSTEM WORKS?",
-      "HowWork_SubTitle": "Companies can also benefit from HVAM based trading by importing and exporting their assets in a business wallet. Follow the steps",
-      
-      "HCard_One_Title": "1. Registration",
-      "hCard_One_SubTitle": "Sign up now to discover our exclusive benefits",
+    "HowWorkSection": {
+        "HowWork_Title": "كيف يعمل نظامنا؟",
+        "HowWork_SubTitle": "Companies can also benefit from HVAM based trading by importing and exporting their assets in a business wallet. Follow the steps",
+        
+        "HCard_One_Title": "1. تسجيل",
+        "hCard_One_SubTitle": ".اشترك الآن لاكتشاف مزايانا الحصرية",
 
-      "HCard_Two_Title": "2. Increase Your Balance",
-      "hCard_Two_SubTitle": "Profit increases by increasing your balance.",
+        "HCard_Two_Title": "2. زيادة رصيدك",
+        "hCard_Two_SubTitle": "Profit increases by increasing your balance.",
 
-      "HCard_Three_Title": "3. Save Your Money And Transaction",
-      "hCard_Three_SubTitle": "Wait for your profit to increase.",
-      
-      "HCard_Four_Title": "4. Quick Transfer",
-      "hCard_Four_SubTitle": "Do your commercial transfer safe, fast, and cost-effective."
-  },
+        "HCard_Three_Title": "3. احفظ أموالك ومعاملاتك",
+        "hCard_Three_SubTitle": ".انتظر حتى يزداد ربحك",
+        
+        "HCard_Four_Title": "4. نقل سريع",
+        "hCard_Four_SubTitle": ".قم بالتحويل التجاري بشكل آمن وسريع وفعال من حيث التكلفة"
+    },
 
-  "FeaturesSection": {
-      "Featu_Title": "WHY CHOOSE HVAM",
-      "Featu_SubTitle": "Our project grasps one of the problems in overall marketplace; “trust”. Developing decentralized applications and escrow services can guarantee the security of users’ assets and satisfaction. Our upmost scheme is to provide safe trading industry between parties.",
-      
-      "fCard_One_Title": "Safe And Secure",
-      "fCard_One_SubTitle": "Safe trading platform is the upmost goal of HVAMBIT. Personal and financial information will be secured.",
+    "FeaturesSection": {
+        "Featu_Title": "HVAMBIT لماذا تختارنا",
+        "Featu_SubTitle": "يدرك مشروعنا إحدى المشكلات في السوق ككل ؛ ثقة . يمكن أن يضمن تطوير التطبيقات اللامركزية وخدمات الضمان أمن أصول المستخدمين ورضاهم. مخططنا الأسمى هو توفير صناعة تجارية آمنة بين الأطراف.",
+        
+        "fCard_One_Title": "آمن ومضمون",
+        "fCard_One_SubTitle": "منصة التداول الآمنة هي الهدف الأسمى لـ HVAMBIT. سيتم تأمين المعلومات الشخصية والمالية.",
 
-      "fCard_Two_Title": "Make Payment",
-      "fCard_Two_SubTitle": "Easily and securely make payment for the goods/service you desire.",
+        "fCard_Two_Title": "قم بالدفع",
+        "fCard_Two_SubTitle": "ادفع بسهولة وأمان مقابل السلع / الخدمة التي تريدها.",
 
-      "fCard_Three_Title": "Secure Wallet",
-      "fCard_Three_SubTitle": "Store all your digital assets securely.",
-      
-      "fCard_Four_Title": "Higher Availibilty",
-      "fCard_Four_SubTitle": "High level of operational performance.",
+        "fCard_Three_Title": "المحفظة الآمنة",
+        "fCard_Three_SubTitle": "قم بتخزين جميع أصولك الرقمية بأمان.",
+        
+        "fCard_Four_Title": "توافر أعلى",
+        "fCard_Four_SubTitle": "مستوى عال من الأداء التشغيلي.",
 
-      "fCard_Five_Title": "Recurring Buying",
-      "fCard_Five_SubTitle": "Set-up how you want to purchase the cryptocurrency you like.",
+        "fCard_Five_Title": "الشراء المتكرر",
+        "fCard_Five_SubTitle": "قم بإعداد الطريقة التي تريد بها شراء العملة المشفرة التي تريدها.",
 
-      "fCard_Six_Title": "Instant Exchnage",
-      "fCard_Six_SubTitle": "Exchange any cryptocurrency faster, simpler, and in secure way."
-  },
+        "fCard_Six_Title": "التغيير الفوري",
+        "fCard_Six_SubTitle": "تبادل أي عملة مشفرة بطريقة أسرع وأبسط وآمن"
+    },
 
-  "RateSection": {
-      "Rate_Title": "HVAM Rate",
-      "Rate_SubTitle": "1 HVAM = 0.53 USD",
-      "Rate_Hvam": "HVAM",
-      "Rate_Curruncy": "USD",
-      "Rate_Btn": "Buy HVAM"
-  },
+    "RateSection": {
+        "Rate_Title": "HVAM Rate",
+        "Rate_SubTitle": "1 HVAM = 0.53 USD",
+        "Rate_Hvam": "HVAM",
+        "Rate_Curruncy": "USD",
+        "Rate_Btn": "Buy HVAM"
+    },
 
-  "CallSection": {
-      "Call_Title": "Give Us A Call",
-      "Call_SubTitle": "Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom"
-  },
+    "CallSection": {
+        "Call_Title": "ابقى على اتصال",
+        "Call_SubTitle": "Kemp House 160 City Road P.o. Box : EC1V2NX London United Kingdom"
+    },
 
-  "TableSection": {
-      "Table_Title": "Updated Price Rate",
-      "Table_SubTitle": "Markets Overview"
-  },
+    "TableSection": {
+        "Table_Title": "معدل السعر المحدث",
+        "Table_SubTitle": "نظرة عامة على الأسواق"
+    },
 
-  "CounterSection": {
-      "Counter_One_Title": "project complete",
-      "Counter_One_Number": "1200",
+    "CounterSection": {
+        "Counter_One_Title": "project complete",
+        "Counter_One_Number": "1200",
 
-      "Counter_Two_Title": "Happy Clients",
-      "Counter_Two_Number": "1000",
+        "Counter_Two_Title": "Happy Clients",
+        "Counter_Two_Number": "1000",
 
-      "Counter_Three_Title": "Line Of Work",
-      "Counter_Three_Number": "56090",
-      
-      "Counter_Four_Title": "Awards Won",
-      "Counter_Four_Number": "31"
-  },
+        "Counter_Three_Title": "Line Of Work",
+        "Counter_Three_Number": "56090",
+        
+        "Counter_Four_Title": "Awards Won",
+        "Counter_Four_Number": "31"
+    },
 
-  "BlogSection": {
-      "Blog_Title": "Recent Blog Update",
-      "Blog_SubTitle": "Latest article from HVAMBIT."
-  },
+    "BlogSection": {
+        "Blog_Title": "تحديث المدونة الأخير",
+        "Blog_SubTitle": "HVAMBIT أحدث مقال من"
+    },
 
-  "FaqSection": {
-      "Faq_Title": "Have any Question on Mind ?",
-      "Faq_SubTitle": "Frequently Asked Questions.",
+    "FaqSection": {
+        "Faq_Title": "Have any Question on Mind ?",
+        "Faq_SubTitle": "أسئلة مكررة",
 
-      "Faq_One_Title": "What Is HVAMBIT?",
-      "Faq_One_SubTitle": "HVAMBIT is a platform which offer its participants with multiple benefits and advantages such as own crypto wallet to explore blockchain, trading, swapping, NFT platform, and crypto payment escrow services – all from a single platform. One of our purposes is to replace the classic financial instruments (LC.DLC.SBLC), to financial instrument based on cryptocurrency to make trading move easier and safer between companies and individuals.",
+        "Faq_One_Title": "?HVAMBIT ما هو",
+        "Faq_One_SubTitle": "منصة هي عبارة عن منصة تقدم لمشاركيها مزايا ومزايا متعددة مثل محفظة التشفير الخاصة لاستكشاف بلوكتشين ، والتداول ، والمبادلة ، ومنصة NFT ، وخدمات ضمان الدفع للعملات المشفرة - كل ذلك من منصة واحدة. يتمثل أحد أغراضنا في استبدال الأدوات المالية الكلاسيكية (LC.DLC.SBLC) بأداة مالية قائمة على العملة المشفرة لجعل حركة التداول أسهل وأكثر أمانًا بين الشركات والأفراد.",
 
-      "Faq_Two_Title": "How Does It Work?",
-      "Faq_Two_SubTitle": "First and foremost, you must create an account, verify it by confirming your email and provide the HVAM receiving wallet address. Next, increase your balance and do your commercial transfer safe, fast, and cost-effective.",
+        "Faq_Two_Title": "?كيف يعمل",
+        "Faq_Two_SubTitle": "أولاً وقبل كل شيء ، يجب عليك إنشاء حساب والتحقق منه عن طريق تأكيد بريدك الإلكتروني وتقديم عنوان محفظة استلام . بعد ذلك ، قم بزيادة رصيدك وقم بإجراء تحويل تجاري آمن وسريع وفعال من حيث التكلفة.",
 
-      "Faq_Three_Title": "How Can I Register?",
-      "Faq_Three_SubTitle": " to sign-up.",
+        "Faq_Three_Title": "?كيف يمكنني التسجيل",
+        "Faq_Three_SubTitle": "اضغط هنا للتسجيل",
 
-      "Faq_Five_Title": "What HVAM Can Offer?",
-      "Faq_Five_SubTitle": "HVAM wallet, NFT platform, Escrow service, Swapping, and more. Aside from that, you can guarantee the security, reliability, and cost-effectiveness with HVAM. Click here to know more about us.",
+        "Faq_Five_Title": "?HVAMBIT ما يمكن أن تقدمه",
+        "Faq_Five_SubTitle": "محفظة ومنصة وخدمة الضمان والمبادلة والمزيد. بصرف النظر عن ذلك ، يمكنك ضمان الأمان والموثوقية والفعالية من حيث التكلفة باستخدام انقر هنا لمعرفة المزيد عنا.",
 
-      "Faq_Six_Title": "How Can I Get The HVAM Receiving Wallet Address?",
-      "Faq_Six_SubTitle": " and watch the video below for the step-by-step instructions.",
+        "Faq_Six_Title": "How Can I Get The HVAM Receiving Wallet Address?",
+        "Faq_Six_SubTitle": " and watch the video below for the step-by-step instructions.",
 
-      "Faq_Seven_Title": "What Is HVAM Escrow?",
-      "Faq_Seven_SubTitle": "HVAM escrow is a neutral third party keeping the funds until the conditions are met and the delivery is confirmed.",
+        "Faq_Seven_Title": "?HVAMBIT ما هو الضمان",
+        "Faq_Seven_SubTitle": "ضمان هو طرف ثالث محايد يحتفظ بالأموال حتى يتم استيفاء الشروط ، ويتم تأكيد التسليم.",
 
-      "Faq_Eight_Title": "What Is HVAM Wallet?",
-      "Faq_Eight_SubTitle": "Where you can store all your assets in one place. We developed our own wallet for you to store your cryptos and NFTs securely, initiate sending, receiving, exchange tokens, access our NFT Marketplace and payments. HVAM wallet employs a number of security mechanisms (secret phrase) to protect client’s assets against hacking or fraud and equips you with a user login and everything you need to manage your digital assets. It will be available for IOS and Android.",
+        "Faq_Eight_Title": "?HVAMBIT ما هي محفظة",
+        "Faq_Eight_SubTitle": "حيث يمكنك تخزين جميع أصولك في مكان واحد.لقد طورنا محفظتنا الخاصة من أجلك لتخزين العملات المشفرة و NFTs الخاصة بك بشكل آمن ، وبدء إرسال الرموز واستلامها وتبادلها والوصول إلى سوق NFT والمدفوعات. تستخدم محفظة HVAM عددًا من آليات الأمان (عبارة سرية) لحماية أصول العميل من القرصنة أو الاحتيال وتزودك بتسجيل دخول المستخدم وكل ما تحتاجه لإدارة أصولك الرقمية. سيكون متاحًا لنظامي IOS و Android.",
 
-      "Faq_Nine_Title": "Is It Safe To Pay Using My Financial Card?",
-      "Faq_Nine_SubTitle": "Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, click here.",
+        "Faq_Nine_Title": "Is It Safe To Pay Using My Financial Card?",
+        "Faq_Nine_SubTitle": "Yes. HVAM platform doesn’t do its own transactions and handle your financial information when it comes to payment, PayPal does. They built up the expertise and implemented the proper tools and procedure to make sure every transaction achieves security, liquidity and efficiency. To know more about it, click here.",
 
-      "Faq_Ten_Title": "Where Can I Read The Whitepaper?",
-      "Faq_Ten_SubTitle": "You can find whitepaper in HVAM homepage or by clicking.",
+        "Faq_Ten_Title": "?أين يمكنني قراءة الورقة البيضاء",
+        "Faq_Ten_SubTitle": "يمكنك العثور على المستند التقني في الصفحة الرئيسية لـ HVAM أو بالنقر هنا",
 
-      "Faq_Eleone_Title": "How Can I View The Roadmap?",
-      "Faq_Eleone_SubTitle": " to view the roadmap."
-  },
+        "Faq_Eleone_Title": "?كيف يمكنني عرض خارطة الطريق",
+        "Faq_Eleone_SubTitle": ".انقر (هنا) لعرض خارطة الطريق"
+    },
 
-  "Footer": {
-      "Foot_Title1": "We Accept",
-      "Foot_Title2": "Stay Up To Date",
-      "Foot_Title3": "HVAMBIT",
-      "Foot_Title4": "Contact Us",
-      "Foot_SubTitle": "You can unsubscribe at any time",
+    "Footer": {
+        "Foot_Title1": "We Accept",
+        "Foot_Title2": "Stay Up To Date",
+        "Foot_Title3": "HVAMBIT",
+        "Foot_Title4": "Contact Us",
+        "Foot_SubTitle": "You can unsubscribe at any time",
 
-      "Foot_Url1": "ADD HVAM",
-      "Foot_Url2": "Roadmap",
-      "Foot_Url3": "Markets",
-      "Foot_Url4": "Whitepaper",
-      "Foot_Url5": "Certificate",
+        "Foot_Url1": "ADD HVAM",
+        "Foot_Url2": "Roadmap",
+        "Foot_Url3": "Markets",
+        "Foot_Url4": "Whitepaper",
+        "Foot_Url5": "Certificate",
 
-      "Foot_Address": "Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX",
-      "Foot_Copyright1": "Copyright ©",
-      "Foot_Copyright2": "UK by High-Value Asset Management. All Rights Reserved."
-  }
+        "Foot_Address": "Kemp House 160 City Road, London, United Kingdom P.O box: EC1V2NX",
+        "Foot_Copyright1": "Copyright ©",
+        "Foot_Copyright2": "UK by High-Value Asset Management. All Rights Reserved."
+    }
 }

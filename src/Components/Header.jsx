@@ -55,9 +55,6 @@ const Header = () => {
                         </li>
                         <li>
                             <a href="https://escrow.hvambit.com/register"> {t('HeaderMenu.REGISTER')}</a>
-                        </li>
-                        <li className="quote">
-                            <a href="https://escrow.hvambit.com">{t('HeaderMenu.LOGIN')}</a>
                         </li>	
                         <li className="dropdown">
                             <a href="#" className="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -71,6 +68,9 @@ const Header = () => {
                                     <a onClick={()=>handleClick('arabic')} href="#">arabic</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li className="quote">
+                            <a href="https://escrow.hvambit.com">{t('HeaderMenu.LOGIN')}</a>
                         </li>
                     </ul>
                 </div>

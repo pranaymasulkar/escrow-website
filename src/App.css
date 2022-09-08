@@ -74,6 +74,7 @@
 
 .quote {
     width: 100px;
+    margin-left: 20px;
 }
 nav.navbar.transparent-white li.dropdown a.dropdown-toggle {
     padding-top: 13px;
@@ -83,7 +84,10 @@ nav.navbar.transparent-white li.dropdown a.dropdown-toggle {
 nav.navbar.transparent-white.navbar-fixed-top li.dropdown a.dropdown-toggle .caret {
     margin-top: -8px;
 }
-
+.navbar-default li.dropdown ul li {
+    border-bottom: 1px solid#eee;
+    margin: 0px 0px 0px 0px;
+}
 .loader-container {
     width: 100%;
     height: 100vh;
