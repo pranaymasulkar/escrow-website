@@ -42,9 +42,22 @@ const Header = () => {
                         <li>
                             <NavLink to="/">{t('HeaderMenu.SOON')}</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="https://hvambit.com/HVAMWHITEPAPER.pptx" download="https://hvambit.com/HVAMWHITEPAPER.pptx">{t('HeaderMenu.WHITEPAPER')}</a>
-                        </li>	
+                        </li>	 */}
+                        <li className="dropdown">
+                            <a href="#" className="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            {t('HeaderMenu.WHITEPAPER')} <span className="caret"></span>
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <a href="https://hvambit.com/WHITEPAPER_EN.pdf" download="https://hvambit.com/WHITEPAPER_EN.pdf" target="blank">English</a>
+                                </li>
+                                <li>
+                                    <a href="https://hvambit.com/WHITEPAPER_ARABIC.pdf" download="https://hvambit.com/WHITEPAPER_ARABIC.pdf" target="blank">Arabic</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li>
                             <NavLink to="/">{t('HeaderMenu.ROADMAP')}</NavLink>
                         </li>
@@ -58,7 +71,7 @@ const Header = () => {
                         </li>	
                         <li className="dropdown">
                             <a href="#" className="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                <BsGlobe2 size={20} /> <span className="caret"></span>
+                                <BsGlobe2 size={20} /> <span className="caret mtr-1"></span>
                             </a>
                             <ul className="dropdown-menu">
                                 <li>

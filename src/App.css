@@ -76,14 +76,14 @@
     width: 100px;
     margin-left: 20px;
 }
-nav.navbar.transparent-white li.dropdown a.dropdown-toggle {
+/* nav.navbar.transparent-white li.dropdown a.dropdown-toggle {
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 20px;
 }
 nav.navbar.transparent-white.navbar-fixed-top li.dropdown a.dropdown-toggle .caret {
     margin-top: -8px;
-}
+} */
 .navbar-default li.dropdown ul li {
     border-bottom: 1px solid#eee;
     margin: 0px 0px 0px 0px;
@@ -96,4 +96,22 @@ nav.navbar.transparent-white.navbar-fixed-top li.dropdown a.dropdown-toggle .car
         url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
         no-repeat;
     z-index: 1;
+}
+
+.mtr-1 {
+    margin-top: -11px;
+}
+.fsecmain {
+    margin-top: 25px;
+    min-height: 110px;
+
+}
+.fsec {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.fsec .feimcon img {
+    max-width: 64px;
+    margin-right: 20px;
 }

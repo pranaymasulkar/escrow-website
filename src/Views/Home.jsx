@@ -227,79 +227,78 @@ const Home = () => {
             </div>
         </section>
 
+
         <section id="features" className="bg-gray section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="heading m-auto text-center ">
+                    <div className="col-12 heading m-auto text-center ">
                         <h2 className="f-xbold">{t('FeaturesSection.Featu_Title')}</h2>
                         <hr className="seperator"/>
                         <p>{t('FeaturesSection.Featu_SubTitle')}</p>
                     </div>
                 </div>
-                <div className="row mb50">
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                <div className="row">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconsafeandsecure} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_One_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_One_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconmakepayment} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_Two_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_Two_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconsecurewallet} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_Three_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_Three_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconavailability} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_Four_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_Four_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconrecurring} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_Five_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_Five_SubTitle')}</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-4">
-                        <div className="feature-box">
-                            <div className="feature-icon">
+                    <div className="col-md-4 col-12 fsecmain">
+                        <div className="fsec">
+                            <div className="feimcon">
                                 <img src={Iconchange} alt="" className="img-responsive"/>
                             </div>
-                            <div className="feature-inner">
+                            <div className="">
                                 <h4>{t('FeaturesSection.fCard_Six_Title')}</h4>
                                 <p>{t('FeaturesSection.fCard_Six_SubTitle')}</p>
                             </div>
