@@ -51,10 +51,10 @@ const Header = () => {
                             </a>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <a href="https://hvambit.com/WHITEPAPER_EN.pdf" download="https://hvambit.com/WHITEPAPER_EN.pdf" target="blank">English</a>
+                                    <a href="https://hvambit.com/WHITEPAPER_EN.pdf" target="blank">English</a>
                                 </li>
                                 <li>
-                                    <a href="https://hvambit.com/WHITEPAPER_ARABIC.pdf" download="https://hvambit.com/WHITEPAPER_ARABIC.pdf" target="blank">Arabic</a>
+                                    <a href="https://hvambit.com/WHITEPAPER_ARABIC.pdf" target="blank">Arabic</a>
                                 </li>
                             </ul>
                         </li>
