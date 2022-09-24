@@ -94,6 +94,15 @@ const Footer = () => {
         {/* <!-- Start Back To Top --> */}
         <a data-scroll id="back-to-top" href="#hero"><i className="icon ion-chevron-up"></i></a>
         {/* <!-- End Back To Top --> */}
+        <div class="ccw_plugin chatbot">
+            <div class="style4 animated no-animation ccw-no-hover-an">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=+44 7488 8808 02&text=مرحبا أنا اتواصل معكم من خلال الموقع" class="nofocus">
+                <div class="chip ccw-analytics" id="style-4" data-ccw="style-4">
+                    <img class="ccw-analytics" id="s4-icon" data-ccw="style-4" src="https://www.hvamcoins.com/app_assets/img/whatsapp-svg.svg" alt="WhatsApp chat"/>
+                </div>
+                </a>
+            </div>
+        </div>
     </>
   )
 }

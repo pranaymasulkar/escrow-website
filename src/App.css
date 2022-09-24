@@ -1,80 +1,78 @@
 .herohead {
-    background-image: url(/src/assets/img/backgrounds/header.png);
-    opacity: 1;
+  background-image: url(/src/assets/img/backgrounds/header.png);
+  opacity: 1;
 }
 .herohead:before {
-    display: none;
+  display: none;
 }
 .loginbtnhed {
-    display: none;
+  display: none;
 }
 
 .imgebox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imgebox .imageres {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 .imgebox.work-icon img {
-    width: 50px;
-    height: auto;
-    margin: 0 auto;
-    padding-top: 0px;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 0px;
 }
 
 .buyhamsec .priceformsec {
-    margin-top: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: stretch;
-    padding: 20px;
-    border-width: 0;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: stretch;
+  padding: 20px;
+  border-width: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
 }
 .buyhamsec .priceformsec .form-control {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .buyhamsec .priceformsec .logoimg {
-    width: 98px;
-    height: 98px;
-    margin-right: 20px;
+  width: 98px;
+  height: 98px;
+  margin-right: 20px;
 }
 .buyhamsec .priceformsec .weblogoimg {
-    width: 25%;
-    margin-right: 20px;
+  width: 25%;
+  margin-right: 20px;
 }
 .buyhamsec .priceformsec h4 {
-    margin: 15px 0 10px;
+  margin: 15px 0 10px;
 }
 .buyhamsec .priceformsec h1 {
-    font-size: 4.5rem;
+  font-size: 4.5rem;
 }
 .buyhamsec .buybtn {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .whychooscont-hide {
-    visibility: hidden;
+  visibility: hidden;
 }
 @media (max-width: 767px) {
-    .loginbtnhed {
-        display: inline-block;
-        float: right;
-    }
+  .loginbtnhed {
+    display: inline-block;
+    float: right;
+  }
 }
 
-
 .chartcontain {
-    
 }
 
 .quote {
-    width: 100px;
-    margin-left: 20px;
+  width: 100px;
+  margin-left: 20px;
 }
 /* nav.navbar.transparent-white li.dropdown a.dropdown-toggle {
     padding-top: 13px;
@@ -85,33 +83,60 @@ nav.navbar.transparent-white.navbar-fixed-top li.dropdown a.dropdown-toggle .car
     margin-top: -8px;
 } */
 .navbar-default li.dropdown ul li {
-    border-bottom: 1px solid#eee;
-    margin: 0px 0px 0px 0px;
+  border-bottom: 1px solid#eee;
+  margin: 0px 0px 0px 0px;
 }
 .loader-container {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.834)
-        url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
-        no-repeat;
-    z-index: 1;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834)
+    url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
+    no-repeat;
+  z-index: 1;
 }
 
 .mtr-1 {
-    margin-top: -11px;
+  margin-top: -11px;
 }
 .fsecmain {
-    margin-top: 25px;
-    min-height: 110px;
-
+  margin-top: 25px;
+  min-height: 110px;
 }
 .fsec {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .fsec .feimcon img {
-    max-width: 64px;
-    margin-right: 20px;
+  max-width: 64px;
+  margin-right: 20px;
+}
+
+.ccw_plugin {
+  bottom: 15px;
+  right: 10px;
+  position: fixed;
+}
+.ccw_plugin .chip {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+.chatbot {
+  position: fixed;
+  z-index: 99999999;
+}
+.ccw_plugin .chip > img {
+  width: 11rem;
+  box-shadow: 0 0 50px rgba(0, 137, 123, 0.7) !important;
+  border-radius: 0.7rem;
+}
+@media (max-width: 1200px) {
+    .ccw_plugin {
+        bottom: 10px;
+        right: inherit;
+        left: 15px;
+      }
 }
